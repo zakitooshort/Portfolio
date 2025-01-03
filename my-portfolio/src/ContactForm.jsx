@@ -1,39 +1,24 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com"; // Import EmailJS
 
 function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
   const [status, setStatus] = useState("");
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    try {
-      const response = await fetch("https://your-server-endpoint.com/api/send-email", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
+    emailjs
+      .sendForm(
+        "service_irbnq0m", // Replace with your EmailJS service ID
+        "template_5ku19rg", // Replace with your EmailJS template ID
+        e.target,
+        "EJN7BO6HAXlYqA7Cc" // Replace with your EmailJS user ID
+      )
+      .then(() => {
         setStatus("Message sent successfully!");
-        setFormData({ name: "", email: "", message: "" });
-      } else {
-        setStatus("Failed to send message. Please try again.");
-      }
-    } catch (error) {
-      console.error("Error sending message:", error);
-      setStatus("An error occurred. Please try again later.");
-    }
+        e.target.reset(); // Reset the form
+      })
+      .catch(() => setStatus("Failed to send message. Please try again."));
   };
 
   return (
@@ -42,28 +27,24 @@ function ContactForm() {
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-sm font-medium mb-2" htmlFor="name">
-            Your Name
+            Name
           </label>
           <input
             type="text"
             id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
+            name="name" // Important: This must match your EmailJS template fields
             className="bg-[#141414] w-full p-2 border rounded"
             required
           />
         </div>
         <div className="mb-4">
           <label className="block text-sm font-medium mb-2" htmlFor="email">
-            Your Email
+            Email
           </label>
           <input
             type="email"
             id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
+            name="email" // Important: This must match your EmailJS template fields
             className="bg-[#141414] w-full p-2 border rounded"
             required
           />
@@ -74,9 +55,7 @@ function ContactForm() {
           </label>
           <textarea
             id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
+            name="message" // Important: This must match your EmailJS template fields
             className="bg-[#141414] w-full p-2 border rounded"
             rows="4"
             required
