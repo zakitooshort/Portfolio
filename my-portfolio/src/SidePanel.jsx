@@ -2,22 +2,22 @@ import { Link } from "react-router-dom";
 function SidePanel(){
   return(
     <aside className="w-1/5 text-white space--4 sticky top-0 h-screen">
-    <Link to="/"><h2 className="text-3xl font-semibold mb-4 pt-6 pl-6">ZAKITOOSHORT</h2></Link>
+    <Link to="/"><h2 className="text-4xl font-semibold mb-4 pt-6 pl-6">ZAKITOOSHORT</h2></Link>
     <nav>
       <div class="grid grid-cols-1 divide-y-[0.5px] divide-[#A9A9A9]">
         <div><ul className="space-y-2">
         <li>
-          <Link to="/About" className="font-normal mt-2 ml-6 text-2xl inline-block m-2 rounded hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/About" className="font-normal mt-2 ml-6 text-3xl inline-block m-2 rounded hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             About
           </Link>
         </li>
         <li>
-          <Link to="/Ideas" className="font-normal mt-0.5 ml-6 text-2xl inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/Ideas" className="font-normal mt-0.5 ml-6 text-3xl inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             Ideas
           </Link>
         </li>
         <li>
-          <Link to="#contact" className="font-normal mb-10 mt-0.5 ml-6 text-2xl inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="#contact" className="font-normal mb-10 mt-0.5 ml-6 text-3xl inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             CV
           </Link>
         </li>

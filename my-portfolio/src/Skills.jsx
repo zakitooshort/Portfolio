@@ -39,6 +39,14 @@ import rust from "./assets/rust.png";
 import springboot from "./assets/springboot.png";
 import svelte from "./assets/svelte.png";
 import quarkus from "./assets/quarkus.png";
+import lua from "./assets/lua.png";
+import typescript from "./assets/typescript.png";
+import jquery from "./assets/jquery.png";
+import gin from "./assets/gin.png";
+import git from "./assets/git.png";
+import github from "./assets/github.png";
+import mongo from "./assets/mongo.png";
+import figma from "./assets/figma.png";
 
 
 export default function Skills() {
@@ -84,18 +92,18 @@ export default function Skills() {
          <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={preact} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
          <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={quarkus} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
          <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={qwik} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={nest} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={figma} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
          <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={reactnative} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
          <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={rust} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
          <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={springboot} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
          <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={svelte} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={quarkus} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={qwik} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={nest} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={reactnative} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={rust} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={springboot} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={svelte} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={github} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={git} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={mongo} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={gin} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={jquery} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={lua} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={typescript} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
           </div>
       </main>
     </div>
