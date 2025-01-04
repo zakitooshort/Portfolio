@@ -47,6 +47,7 @@ import git from "./assets/git.png";
 import github from "./assets/github.png";
 import mongo from "./assets/mongo.png";
 import figma from "./assets/figma.png";
+import lock from "./assets/lock.png";
 
 
 export default function Skills() {
@@ -55,55 +56,210 @@ export default function Skills() {
     <div className="divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414]">
       <SidePanel/>
       <main className="flex-1 space-6 text-white overflow-y-auto ">
-        <div className="flex flex-wrap pl-10">
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8 "><img src={html} alt="html" className="w-[11vh] rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={css} alt="css" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh] ml-10 m-8"><img src={javascript} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={React} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={vuejs} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={postgres} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={python} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={Django} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={angular} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={astro} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={next} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={nuxtjs} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={solidjs} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={aiohttp} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={C} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={Cplus} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={Chashtag} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={rails} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={RUby} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={node} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={flask} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={fastify} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={assembly} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={express} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={fastapi} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={flutter} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={go} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={java} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={koa} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={laravel} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={nest} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={netcore} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={php} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={preact} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={quarkus} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={qwik} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={figma} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={reactnative} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={rust} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={springboot} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={svelte} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={github} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={git} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={mongo} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={gin} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={jquery} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={lua} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
-         <div className=" w-[11vh] h-[11vh]  ml-10 m-8"><img src={typescript} alt="" className="h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+        <div className="flex flex-wrap pl-10">  
+        <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> 
+              <img src={html} alt="css" className="absolute z-0 h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+              
+            </div>
+           
+            
+           <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> 
+              <img src={css} alt="css" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            </div>
+            
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={javascript} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={React} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={vuejs} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={postgres} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={python} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Django} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+  
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={github} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={git} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={figma} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-lg"></div>
+             <img src={typescript} alt="" className="absolute z-0 h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" />
+             </div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div>
+             <img src={angular} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={astro} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={next} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={nuxtjs} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={jquery} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+             
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={svelte} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={preact} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={quarkus} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={solidjs} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={aiohttp} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={java} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={springboot} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={C} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Cplus} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Chashtag} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+             
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={assembly} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={rails} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={RUby} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={node} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={express} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={nest} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+             
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={koa} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={qwik} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={flask} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={fastify} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={fastapi} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={flutter} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={reactnative} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+              <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={go} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={gin} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+
+            
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={netcore} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={php} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+             
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={laravel} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={rust} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={mongo} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            
+
+            <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div>
+             <img src={lua} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lock} alt="" className="absolute z-10" /></div>
+
+            
           </div>
       </main>
     </div>
