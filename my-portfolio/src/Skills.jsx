@@ -1,4 +1,5 @@
 import SidePanel from "./SidePanel";
+import M from "./assets/M.png";
 import html from "./assets/html.png";
 import css from "./assets/css.png";
 import javascript from "./assets/javascript.png";
@@ -56,6 +57,12 @@ export default function Skills() {
     <div className="divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414]">
       <SidePanel/>
       <main className="flex-1 space-6 text-white overflow-y-auto ">
+      
+          <div class="text-center text-semibold  m-4 text-6xl">SKILLS</div>
+          <hr className="mt-2 mb-2"/>
+          <div class="text-semibold ml-20 m-4 text-3xl">Languages,Frameworks,Programs acquired / Seek to acquire:</div>
+          
+         
         <div className="flex flex-wrap pl-10">  
         <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div> 
@@ -89,15 +96,15 @@ export default function Skills() {
   
             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={github} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
-             <img src={lock} alt="" className="absolute z-10" /></div>
+             </div>
 
             <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={git} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
-             <img src={lock} alt="" className="absolute z-10" /></div>
+             </div>
 
              <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={figma} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
-             <img src={lock} alt="" className="absolute z-10" /></div>
+             </div>
 
              <div className="relative w-[11vh] h-[11vh]  ml-10 m-8 ">
             <div className="absolute inset-0 bg-[#fff] blur-lg"></div>
@@ -259,8 +266,10 @@ export default function Skills() {
              <img src={lua} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            
           </div>
+          <hr className=" mt-2 mb-2 "/>
+          <div class="text-semibold ml-20 m-4 text-3xl">Techstacks acquired / Seek to acquire:</div>
+          <img src={M} alt="" className="w-80 ml-20 bg-[#fff] opacity-20 border border-gray-300 rounded-lg shadow-lg" />
       </main>
     </div>
    </>
