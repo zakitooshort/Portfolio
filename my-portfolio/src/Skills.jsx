@@ -269,7 +269,7 @@ export default function Skills() {
           </div>
           <hr className=" mt-2 mb-2 "/>
           <div class="text-semibold ml-20 m-4 text-3xl">Techstacks acquired / Seek to acquire:</div>
-          <img src={M} alt="" className="w-80 ml-20 bg-[#fff] opacity-20 border border-gray-300 rounded-lg shadow-lg" />
+          <img src={M} alt="" className="w-80 ml-20 bg-[#fff] opacity-80 border border-gray-300 rounded-lg shadow-lg" />
       </main>
     </div>
    </>

@@ -1,8 +1,21 @@
+import { useEffect, useState } from "react";
 import ContactForm from "./contactForm";
 import SidePanel from "./SidePanel";
+import dayjs from 'dayjs';
 
 
 export default function App() {
+  
+  const now = dayjs();
+  const [currentTime, setCurrentTime] = useState(new Date());
+  
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000);
+    
+    return () => clearInterval(timer);
+  }, []);
   return (
     <>
     
@@ -11,7 +24,7 @@ export default function App() {
       <main className="flex-1 space-6 text-white overflow-y-auto">
         <div className="flex">
         <p className="flex-1 w-64  pt-6 pl-6 text-xl font-medium">Hello there , السلام عليكم</p>
-        <p className="flex-initial pt-6 mr-14 w-64 text-xl font-medium">Thursday,Dec 24 6:39 PM</p>
+        <p className="flex-initial pt-6 mr-14  text-xl font-medium text-align-center">{now.format('dddd')} {now.format('MMMM D, YYYY')} {currentTime.toLocaleTimeString()}</p>
         </div>
         <div>
           <h1 className="font-bold text-7xl pt-10 pl-[21vh]">OUZAI</h1>
