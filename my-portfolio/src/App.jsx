@@ -1,7 +1,16 @@
 import { useEffect, useState } from "react";
-import ContactForm from "./contactForm";
+import ContactForm from "./ContactForm";
 import SidePanel from "./SidePanel";
 import dayjs from 'dayjs';
+import cat1 from "./assets/cat1.jpg";
+import cat2 from "./assets/cat2.jpg";
+import cat3 from "./assets/cat3.jpg";
+import cat4 from "./assets/cat4.jpg";
+import cat5 from "./assets/cat5.jpg";
+import cat6 from "./assets/cat6.jpg";
+import cat7 from "./assets/cat7.jpg";
+import cat8 from "./assets/cat8.jpg";
+import cat9 from "./assets/cat9.jpg";
 
 
 export default function App() {
@@ -68,6 +77,26 @@ export default function App() {
           </p>
           </div>
           <hr class="border-[#A9A9A9] mt-10"/>
+          <div >
+          <h1 className="font-semibold text-3xl pt-10 pl-[11vh]">My CATS!</h1>
+          
+          <div>
+                    <div className="mt-10 flex  justify-center space-x-10 ">
+                      <div className="flex  ">
+                        <img className=" w-[30.5vh] rounded  object-scale-down " src={cat1} alt="" />  </div>
+                      <div className="flex">
+                        <img className="w-[33vh] rounded  object-scale-down" src={cat6} alt="Halo" />
+                        </div>
+                        <div className="flex rounded"> 
+                        <img className="w-[30.5vh] rounded object-scale-down " src={cat5} alt="Halo" /></div>
+                      <div className="flex ">
+                        <img className=" w-[30.5vh] rounded object-scale-down " src={cat2} alt="" /></div>
+                    </div>
+                   
+           </div>
+                   
+         <hr class="border-[#A9A9A9] mt-10"/>
+        </div>
           <ContactForm />
         </div>
       </main>

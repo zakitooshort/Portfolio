@@ -1,5 +1,5 @@
  import React, { useState } from "react";
-import emailjs from "emailjs-com"; // Import EmailJS
+import emailjs from "emailjs-com"; 
 
 function ContactForm() {
   const [status, setStatus] = useState("");
@@ -9,14 +9,14 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_irbnq0m", // Replace with your EmailJS service ID
-        "template_5ku19rg", // Replace with your EmailJS template ID
+        "service_irbnq0m", 
+        "template_5ku19rg", 
         e.target,
-        "EJN7BO6HAXlYqA7Cc" // Replace with your EmailJS user ID
+        "EJN7BO6HAXlYqA7Cc" 
       )
       .then(() => {
         setStatus("Message sent successfully!");
-        e.target.reset(); // Reset the form
+        e.target.reset(); 
       })
       .catch(() => setStatus("Failed to send message. Please try again."));
   };
@@ -32,7 +32,7 @@ function ContactForm() {
           <input
             type="text"
             id="name"
-            name="name" // Important: This must match your EmailJS template fields
+            name="name"
             className="bg-[#141414] w-full p-2 border rounded"
             required
           />
@@ -44,7 +44,7 @@ function ContactForm() {
           <input
             type="email"
             id="email"
-            name="email" // Important: This must match your EmailJS template fields
+            name="email" 
             className="bg-[#141414] w-full p-2 border rounded"
             required
           />
@@ -55,7 +55,7 @@ function ContactForm() {
           </label>
           <textarea
             id="message"
-            name="message" // Important: This must match your EmailJS template fields
+            name="message" 
             className="bg-[#141414] w-full p-2 border rounded"
             rows="4"
             required

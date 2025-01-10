@@ -39,13 +39,8 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="md:w-1/2 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
-              <h2 className="text-xl font-bold mb-4">Project Previews</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <img src="/path/to/your/image1.jpg" alt="Preview 1" className="w-full h-auto rounded-lg" />
-                <img src="/path/to/your/image2.jpg" alt="Preview 2" className="w-full h-auto rounded-lg" />
-                <img src="/path/to/your/image3.jpg" alt="Preview 3" className="w-full h-auto rounded-lg" />
-              </div>
+            <div className="max-w-lg">
+              
             </div>
 
           </div>
