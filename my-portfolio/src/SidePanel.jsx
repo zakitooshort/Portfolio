@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 function SidePanel(){
+  const handleMailClick = (e) => {
+    e.preventDefault(); 
+    window.location.href = 'mailto:zakip1r1o13@gmail.com';
+  };
   return(
     <aside className="w-1/5 text-white space--4 sticky top-0 h-screen">
     <Link to="/"><h2 className="text-4xl font-semibold mb-4 pt-6 pl-6">ZAKITOOSHORT</h2></Link>
@@ -17,7 +21,7 @@ function SidePanel(){
           </Link>
         </li>
         <li>
-          <Link to="#contact" className="font-normal mb-10 mt-0.5 ml-6 text-3xl inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/your-cv.pdf" className="font-normal mb-10 mt-0.5 ml-6 text-3xl inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             CV
           </Link>
         </li>
@@ -52,7 +56,7 @@ function SidePanel(){
       <h3 className="opacity-75 text-2xl tracking-widest font-normal mb-4 pt-6 pl-6">CONTACT</h3>
         <ul>
         <li>
-          <Link to="#home" className="font-normal pt-2 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="#" onClick={handleMailClick} className="font-normal pt-2 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             Mail
           </Link>
         </li>
