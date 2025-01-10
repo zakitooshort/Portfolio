@@ -21,7 +21,7 @@ function SidePanel(){
           </Link>
         </li>
         <li>
-          <Link to="/your-cv.pdf" className="font-normal mb-10 mt-0.5 ml-6 text-3xl inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/cv.pdf" className="font-normal mb-10 mt-0.5 ml-6 text-3xl inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             CV
           </Link>
         </li>
