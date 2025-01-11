@@ -1,4 +1,13 @@
 import SidePanel from "./SidePanel";
+import Carousel from "./Carousel.jsx";
+import ss1 from "./assets/ss1.png";
+import ss2 from "./assets/ss2.png";
+import ss3 from "./assets/ss3.png";
+import ss4 from "./assets/ss4.png";
+
+const slides=[
+  ss1,ss2,ss3,ss4,
+]
 
 export default function Projects() {
   return (
@@ -6,9 +15,12 @@ export default function Projects() {
       <div className="divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414]">
         <SidePanel/>
         <main className="flex-1 text-white overflow-y-auto">
-          <div className="flex flex-wrap md:flex-nowrap gap-8 pt-10 pr-10 pl-10">
+          <div className="mt-4"></div>
+        <span class="flex-shrink text-bold ml-10 mx-4 text-3xl ">Completed Projects</span>
+        <div class="flex-grow border-t-[3px] "></div>
+          <div className="flex flex-wrap md:flex-nowrap gap-8 pt-10 pr-10 pl-10 mb-10">
             
-            <div className="md:w-1/2 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
+            <div className="md:w-2/3 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
               <h2 className="text-2xl font-bold mb-2">My Personal Portfolio</h2>
               <p className="text-gray-300 mb-4">
                 This portfolio is a creative and personal showcase of my journey as a developer.
@@ -38,15 +50,23 @@ export default function Projects() {
                 <a href="#" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
               </div>
             </div>
-
+            <div className="md:w-1/3 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
             <div className="max-w-lg">
-              
+              <Carousel>
+                {slides.map((s)=>(
+                  <img src={s}/>
+                ))}
+              </Carousel>
+            </div>
             </div>
 
           </div>
+          
+        <span class="flex-shrink text-bold ml-10 mx-4 text-3xl">In Progress Projects</span>
+        <div class="flex-grow border-t-[3px] "></div>
           <div className="flex flex-wrap md:flex-nowrap gap-8 p-10">
             
-            <div className="md:w-1/2 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
+            <div className=" w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
               <h2 className="text-2xl font-bold mb-2">Minesweeper Game with AI Solver</h2>
               <p className="text-gray-300 mb-4">
                 This portfolio is a creative and personal showcase of my journey as a developer.
@@ -72,14 +92,7 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="md:w-1/2 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
-              <h2 className="text-xl font-bold mb-4">Project Previews</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <img src="/path/to/your/image1.jpg" alt="Preview 1" className="w-full h-auto rounded-lg" />
-                <img src="/path/to/your/image2.jpg" alt="Preview 2" className="w-full h-auto rounded-lg" />
-                <img src="/path/to/your/image3.jpg" alt="Preview 3" className="w-full h-auto rounded-lg" />
-              </div>
-            </div>
+            
 
           </div>
         </main>

@@ -1,5 +1,11 @@
 import SidePanel from "./SidePanel";
-import React, { useState } from "react"
+import React, { useState } from "react";
+import idea1 from "./assets/idea1.png";
+import idea2 from "./assets/idea2.png";
+import idea3 from "./assets/idea3.png";
+import idea4 from "./assets/idea4.png";
+import idea5 from "./assets/idea5.png";
+import idea6 from "./assets/idea6.jpg";
 
 
 export default function Ideas() {
@@ -30,7 +36,7 @@ export default function Ideas() {
             <p class="text-gray-600 mt-3">
             A virtual mirror that uses your webcam to detect your emotions and display an avatar that mirrors your mood in a surreal, animated way.
             </p>
-            <img src="https://via.placeholder.com/400" alt="Prototype Image" class="mt-4 rounded-lg" />
+            <img src={idea1} alt="Prototype Image" class="mt-4 rounded-lg" />
             <button class="mt-4 text-blue-500 hover:underline" onClick={toggleModal}>Read More</button>
             
           </div>
@@ -57,7 +63,7 @@ export default function Ideas() {
             <p class="text-gray-600 mt-3">
             A todo list where instead of listing things to do, you list things you've already done. Over time, it visualizes your accomplishments and progress, helping to boost motivation.
             </p>
-            <img src="https://via.placeholder.com/400" alt="Prototype Image" class="mt-4 rounded-lg" />
+            <img src={idea2} alt="Prototype Image" class="mt-4 rounded-lg" />
             <button class="mt-4 text-blue-500 hover:underline">Read More</button>
           </div>
         </div>
@@ -73,7 +79,7 @@ export default function Ideas() {
             <p class="text-gray-600 mt-3">
             A debate platform where AI generates opposing arguments based on user input, helping people strengthen their opinions or see things from a different perspective.
             </p>
-            <img src="https://via.placeholder.com/400" alt="Prototype Image" class="mt-4 rounded-lg" />
+            <img src={idea3} alt="Prototype Image" class="mt-4 rounded-lg" />
             <button class="mt-4 text-blue-500 hover:underline">Read More</button>
           </div>
 
@@ -88,7 +94,7 @@ export default function Ideas() {
             <h2 class="text-2xl font-semibold">Personal Time Capsule</h2>
             <p class="text-gray-600 mt-3">
             A digital time capsule where you can store messages, files, or even recorded videos to be sent to your future self on a chosen date. Bonus: You could add AR visuals when you open it!</p>
-            <img src="https://via.placeholder.com/400" alt="Prototype Image" class="mt-4 rounded-lg" />
+            <img src={idea4} alt="Prototype Image" class="mt-4 rounded-lg" />
             <button class="mt-4 text-blue-500 hover:underline">Read More</button>
           </div>
         </div>
@@ -102,7 +108,7 @@ export default function Ideas() {
             <h2 class="text-2xl font-semibold">Memory-Augmenting Journal</h2>
             <p class="text-gray-600 mt-3">
             A journal app that uses AI to analyze your entries and suggest things you might want to remember later, like special moments or recurring thoughts. It could even generate poetic summaries of your life over time.</p>
-            <img src="https://via.placeholder.com/400" alt="Prototype Image" class="mt-4 rounded-lg" />
+            <img src={idea5} alt="Prototype Image" class="mt-4 rounded-lg" />
             <button class="mt-4 text-blue-500 hover:underline">Read More</button>
           </div>
 
@@ -117,7 +123,7 @@ export default function Ideas() {
             <h2 class="text-2xl font-semibold">Real-Time Mood Chat</h2>
             <p class="text-gray-600 mt-3">
             A chat app where your avatar and the chat background change in real time based on your mood. Users can see each other’s “emotional states” and respond accordingly.</p>
-            <img src="https://via.placeholder.com/400" alt="Prototype Image" class="mt-4 rounded-lg" />
+            <img src={idea6} alt="Prototype Image" class="mt-4 rounded-lg" />
             <button class="mt-4 text-blue-500 hover:underline">Read More</button>
           </div>
         </div>

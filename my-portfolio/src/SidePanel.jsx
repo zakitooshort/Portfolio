@@ -66,17 +66,12 @@ function SidePanel(){
           </Link>
         </li>
         <li>
-          <Link to="#contact" className="font-normal pt-0.5 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
-            Linkedn
-          </Link>
-        </li>
-        <li>
-          <Link to="#about" className="font-normal pt-0.5 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="https://read.cv/zakitooshort" target="_blank" className="font-normal pt-0.5 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             Read.cv
           </Link>
         </li>
         <li>
-          <Link to="#contact" className="font-normal pt-0.5 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="https://leetcode.com/u/zakitooshort/" target="_blank" className="font-normal pt-0.5 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             Leetcode
           </Link>
         </li>

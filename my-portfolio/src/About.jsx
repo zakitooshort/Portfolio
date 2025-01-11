@@ -72,16 +72,16 @@ export default function About() {
          </div>
          <div><p className="ml-12 mt-10 text-xl text-[#A9A9A9]">Going out with friends</p>
           <div className="mt-5 flex space-x-4">
-            <div className="flex-1"><img className="ml-20 w-[40vh]  object-scale-down rounded-[25px]" src={noodles} alt="noodles" /><p className="ml-28 mt-2">Eating</p>  </div>
-            <div className="flex-1"><img className="ml-12 w-[40vh]  object-scale-down rounded-[25px]" src={out} alt="going out" /><p className="ml-20 mt-2">Having fun</p></div>
-            <div className="flex-1"><img className="w-[40vh]  object-scale-down rounded-[25px]" src={beach} alt="beach" /><p className="ml-10 mt-2">Visiting the beach</p></div>
+            <div className="flex-1"><img className="ml-20 w-[40vh]  object-scale-down " src={noodles} alt="noodles" /><p className="ml-28 mt-2">Eating</p>  </div>
+            <div className="flex-1"><img className="ml-12 w-[40vh]  object-scale-down " src={out} alt="going out" /><p className="ml-20 mt-2">Having fun</p></div>
+            <div className="flex-1"><img className="w-[40vh]  object-scale-down " src={beach} alt="beach" /><p className="ml-10 mt-2">Visiting the beach</p></div>
           </div>
          </div>
          <div><p className="ml-12 mt-10 text-xl text-[#A9A9A9]">Fav video game series:</p>
           <div className="mt-5 flex space-x-4">
-            <div className="flex-1"><img className="ml-20 h-[70%]  object-scale-down rounded-[25px]" src={bo1} alt="call of duty black ops 1" /><p className="ml-28">Call Of Duty Black Ops Zombies</p>  </div>
-            <div className="flex-1"><img className="ml-12 h-[70%]  object-scale-down rounded-[25px]" src={assassin} alt="Assassin's creed" /><p className="ml-20">Assassin's Creed</p></div>
-            <div className="flex-1"><img className="h-[70%]  object-scale-down rounded-[25px]" src={halo} alt="Halo" /><p className="ml-10">Halo series </p></div>
+            <div className="flex-1"><img className="ml-20 h-[70%]  object-scale-down " src={bo1} alt="call of duty black ops 1" /><p className="ml-28">Call Of Duty Black Ops Zombies</p>  </div>
+            <div className="flex-1"><img className="ml-12 h-[70%]  object-scale-down " src={assassin} alt="Assassin's creed" /><p className="ml-20">Assassin's Creed</p></div>
+            <div className="flex-1"><img className="h-[70%]  object-scale-down " src={halo} alt="Halo" /><p className="ml-10">Halo series </p></div>
           </div>
          </div>
       </main>
