@@ -4,6 +4,3 @@
 @tailwind utilities;
 
 
-body.active-modal{
-  overflow-y: hidden;
-}

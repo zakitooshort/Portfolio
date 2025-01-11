@@ -47,7 +47,7 @@ export default function Projects() {
                 </button>
               </div>
               <div className="flex gap-4">
-                <a href="#" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
+                <a href="https://github.com/zakitooshort/Portfolio/tree/main" target="_blank" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
               </div>
             </div>
             <div className="md:w-1/3 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
@@ -88,7 +88,7 @@ export default function Projects() {
                 
               </div>
               <div className="flex gap-4">
-                <a href="#" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
+                <a href="https://github.com/zakitooshort/minesweeper-Ai-Solver" target="_blank" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
               </div>
             </div>
 
