@@ -127,15 +127,15 @@ export default function Ideas() {
             <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
               <div onClick={toggleModal3} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
               <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
-                <div className="text-4xl ml-1">Emzzzzz</div>
+                <div className="text-4xl ml-1">Dynamic Debate Platform</div>
                 <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
-                 This concept involves using facial recognition and emotion detection to animate an avatar that mirrors your mood. Imagine a digital reflection that not only shows your face but expresses how you feel in a creative and surreal way. The avatar could change colors, shapes, or even environments based on your emotions.
-                </div><br />
+                An interactive platform where users can engage in live debates on various topics. The twist? Users get assigned random positions (for or against) and must defend them, encouraging critical thinking and empathy for opposing views.</div><br />
                 <div className=" ml-2 text-2xl"><strong>
                  Potential Technologies: <br /></strong>
-                 <strong>TensorFlow.js</strong> for emotion detection. <br />
-                 <strong>Three.js or p5.js</strong> for dynamic avatar rendering. <br />
-                 <strong>WebRTC</strong> for accessing the webcam.</div>
+                 <strong>React with Tailwind CSS</strong> for a clean, modern interface. <br />
+                 <strong>Node.jss</strong> to manage debate rooms and user data. <br />
+                 <strong>Socket.io</strong> for live debate interaction. <br />
+                 <strong>PostgreSQL or MongoD</strong> to store topics, user profiles, and debate histories</div>
                 <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal3}>close</button>
               </div>
                
@@ -159,15 +159,17 @@ export default function Ideas() {
             <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
               <div onClick={toggleModal4} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
               <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
-                <div className="text-4xl ml-1">Emzzzzz</div>
+                <div className="text-4xl ml-1">Personal Time Capsule</div>
                 <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
-                 This concept involves using facial recognition and emotion detection to animate an avatar that mirrors your mood. Imagine a digital reflection that not only shows your face but expresses how you feel in a creative and surreal way. The avatar could change colors, shapes, or even environments based on your emotions.
-                </div><br />
+                Users can write letters, upload photos, or record videos and set them to be unlocked at a specific future date. It’s a nostalgic tool that lets people reflect on their past thoughts, dreams, and experiences.
+                 </div><br />
                 <div className=" ml-2 text-2xl"><strong>
                  Potential Technologies: <br /></strong>
-                 <strong>TensorFlow.js</strong> for emotion detection. <br />
-                 <strong>Three.js or p5.js</strong> for dynamic avatar rendering. <br />
-                 <strong>WebRTC</strong> for accessing the webcam.</div>
+                 <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
+                 <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
+                 <strong>PostgreSQL</strong> for storing capsule data. <br />
+                 <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
+                 <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
                 <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal4}>close</button>
               </div>
                
@@ -192,15 +194,17 @@ export default function Ideas() {
             <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
               <div onClick={toggleModal5} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
               <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
-                <div className="text-4xl ml-1">Emzzzzz</div>
+                <div className="text-4xl ml-1">Memory-Augmenting Journal</div>
                 <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
-                 This concept involves using facial recognition and emotion detection to animate an avatar that mirrors your mood. Imagine a digital reflection that not only shows your face but expresses how you feel in a creative and surreal way. The avatar could change colors, shapes, or even environments based on your emotions.
+                A journal app that uses AI to analyze your entries and suggest things you might want to remember later, like special moments or recurring thoughts. It could even generate poetic summaries of your life over time.
                 </div><br />
                 <div className=" ml-2 text-2xl"><strong>
                  Potential Technologies: <br /></strong>
-                 <strong>TensorFlow.js</strong> for emotion detection. <br />
-                 <strong>Three.js or p5.js</strong> for dynamic avatar rendering. <br />
-                 <strong>WebRTC</strong> for accessing the webcam.</div>
+                 <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
+                 <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
+                 <strong>PostgreSQL</strong> for storing capsule data. <br />
+                 <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
+                 <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
                 <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal5}>close</button>
               </div>
                
@@ -225,15 +229,17 @@ export default function Ideas() {
             <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
               <div onClick={toggleModal6} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
               <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
-                <div className="text-4xl ml-1">Emzzzzz</div>
+                <div className="text-4xl ml-1">Real-Time Mood Chat</div>
                 <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
-                 This concept involves using facial recognition and emotion detection to animate an avatar that mirrors your mood. Imagine a digital reflection that not only shows your face but expresses how you feel in a creative and surreal way. The avatar could change colors, shapes, or even environments based on your emotions.
+                A chat app where your avatar and the chat background change in real time based on your mood. Users can see each other’s “emotional states” and respond accordingly.
                 </div><br />
                 <div className=" ml-2 text-2xl"><strong>
                  Potential Technologies: <br /></strong>
-                 <strong>TensorFlow.js</strong> for emotion detection. <br />
-                 <strong>Three.js or p5.js</strong> for dynamic avatar rendering. <br />
-                 <strong>WebRTC</strong> for accessing the webcam.</div>
+                 <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
+                 <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
+                 <strong>PostgreSQL</strong> for storing capsule data. <br />
+                 <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
+                 <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
                 <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal6}>close</button>
               </div>
                

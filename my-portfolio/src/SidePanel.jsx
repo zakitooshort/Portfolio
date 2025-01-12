@@ -66,6 +66,11 @@ function SidePanel(){
           </Link>
         </li>
         <li>
+          <Link to="https://github.com/zakitooshort" target="_blank" className="font-normal pt-0.5 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+            Github
+          </Link>
+        </li>
+        <li>
           <Link to="https://read.cv/zakitooshort" target="_blank" className="font-normal pt-0.5 pl-6 text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             Read.cv
           </Link>

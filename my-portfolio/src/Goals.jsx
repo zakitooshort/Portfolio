@@ -16,7 +16,7 @@ export default function Goals() {
           
           <div className="mb-10">
             <h2 className="text-3xl font-semibold mb-4">Main Goals</h2>
-            <div className="bg-gray-800 p-4 rounded-lg shadow-lg space-y-2">
+            <div className="bg-[#242424] p-4 rounded-lg shadow-lg space-y-2">
               <p className='text-2xl font-semibold'>Make at least 1 project a month:</p>
               <p className='text-xl'>This Month's Project: Minesweeper game with AI</p>
               <p className='text-lg opacity-70'>Details: Finished the first half the base game and logic the other half implementing The AI using NEAT technique</p>
@@ -33,7 +33,7 @@ export default function Goals() {
 
           <div className="mb-10">
             <h2 className="text-3xl font-semibold mb-4">Mini Goals</h2>
-            <div className="bg-gray-800 p-4 rounded-lg shadow-lg space-y-2">
+            <div className="bg-[#242424] p-4 rounded-lg shadow-lg space-y-2">
               <p className='text-2xl font-semibold'>Make 2 Mini projects a month:</p>
               <p className='text-xl'>Mini Project 1: Portfolio</p>
               <p className='text-lg opacity-70'>Details: Finished the necessary parts might upgrade existing features/ add more features in the Future</p>
@@ -47,7 +47,7 @@ export default function Goals() {
 
           <div className="mb-10">
             <h2 className="text-3xl font-semibold mb-4">Progress</h2>
-            <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
+            <div className="bg-[#242424] p-4 rounded-lg shadow-lg">
               <ProgressBar label="Main Goal Progress" percentage={mainGoalProgress} />
               <ProgressBar label="Mini Goal Progress" percentage={miniGoalProgress} />
             </div>
@@ -55,7 +55,7 @@ export default function Goals() {
 
           <div className="mb-10">
             <h2 className="text-3xl font-semibold mb-4">Achievements</h2>
-            <div className="bg-gray-800 p-4 rounded-lg shadow-lg space-y-2">
+            <div className="bg-[#242424] p-4 rounded-lg shadow-lg space-y-2">
               <p className='text-xl'>Completed Projects:</p>
               <ul className="list-disc list-inside ml-4">
                 <li>Portfolio.</li>
@@ -65,7 +65,7 @@ export default function Goals() {
 
           <div className="mb-10">
             <h2 className="text-3xl font-semibold mb-4">Motivational Quotes</h2>
-            <div className="bg-gray-800 p-4 rounded-lg shadow-lg space-y-2">
+            <div className="bg-[#242424] p-4 rounded-lg shadow-lg space-y-2">
               <p className='text-xl italic'>"Our work is never over." - Kanye west</p>
               <p className='text-xl italic'>"Life is really simple, but we insist on making it complicated." - Confucius</p>
               
@@ -74,7 +74,7 @@ export default function Goals() {
 
           <div className="mb-10">
             <h2 className="text-3xl font-semibold mb-4">Notes</h2>
-            <div className="bg-gray-800 p-4 rounded-lg shadow-lg space-y-2">
+            <div className="bg-[#242424] p-4 rounded-lg shadow-lg space-y-2">
               <p className='text-lg opacity-70'>The journey ahead is still rough; this is just the beginning. <br />
                 Every challenge I'll face is an opportunity to grow stronger and wiser. <br />
                 I'll embrace each moment, learn from every experience, and never lose sight of my dreams. <br />

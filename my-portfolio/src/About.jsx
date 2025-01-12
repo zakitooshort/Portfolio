@@ -70,7 +70,7 @@ export default function About() {
          <div>
           <p className="ml-10 mr-[30vh] text-[26px] text-semibold">When I’m not coding, I enjoy hanging out with my friends. I also love playing video games, which inspire me with their design and mechanics, and exploring new technologies. These hobbies, along with researching innovative ideas online, keep me motivated and curious.</p>
          </div>
-         <div><p className="ml-12 mt-10 text-xl text-[#A9A9A9]">Going out with friends</p>
+         <div><p className="ml-12 mt-10 text-xl text-[#A9A9A9]">Going out with friends:</p>
           <div className="mt-5 flex space-x-4">
             <div className="flex-1"><img className="ml-20 w-[40vh]  object-scale-down " src={noodles} alt="noodles" /><p className="ml-28 mt-2">Eating</p>  </div>
             <div className="flex-1"><img className="ml-12 w-[40vh]  object-scale-down " src={out} alt="going out" /><p className="ml-20 mt-2">Having fun</p></div>

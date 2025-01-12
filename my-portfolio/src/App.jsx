@@ -3,15 +3,11 @@ import ContactForm from "./ContactForm";
 import SidePanel from "./SidePanel";
 import TooltipCursor from "./TooltipCursor";
 import dayjs from 'dayjs';
+import Footer from './Footer';
 import cat1 from "./assets/cat1.jpg";
 import cat2 from "./assets/cat2.jpg";
-import cat3 from "./assets/cat3.jpg";
-import cat4 from "./assets/cat4.jpg";
 import cat5 from "./assets/cat5.jpg";
 import cat6 from "./assets/cat6.jpg";
-import cat7 from "./assets/cat7.jpg";
-import cat8 from "./assets/cat8.jpg";
-import cat9 from "./assets/cat9.jpg";
 
 
 export default function App() {
@@ -103,6 +99,8 @@ export default function App() {
         </div>
           <ContactForm />
         </div>
+        <hr class="border-[#A9A9A9] mt-10"/>
+      <Footer />
       </main>
     </div>
    

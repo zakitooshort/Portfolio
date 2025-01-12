@@ -7,9 +7,9 @@ const ProgressBar = ({ label, percentage }) => {
         <span className="text-base font-medium text-white">{label}</span>
         <span className="text-sm font-medium text-white">{percentage}%</span>
       </div>
-      <div className="w-full bg-gray-200 rounded-full h-4">
+      <div className="w-full bg-[#3d3d3d] rounded-full h-4">
         <div
-          className="bg-blue-600 h-4 rounded-full"
+          className="bg-[#191919] h-4 rounded-full"
           style={{ width: `${percentage}%` }}
         ></div>
       </div>
