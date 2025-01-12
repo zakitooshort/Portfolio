@@ -1,4 +1,7 @@
 import SidePanel from "./SidePanel";
+import React from 'react';
+import TooltipCursor from './TooltipCursor'; 
+import cat1 from './assets/cat1.jpg';
 
 
 export default function Goals() {
@@ -8,6 +11,7 @@ export default function Goals() {
       <SidePanel/>
       <main className="flex-1 space-6 text-white overflow-y-auto">
         <div className="text-7xl text-semibold p-20 text-center bg-gray-600">This Page Is Currently Under Maintenance</div>
+        
       </main>
     </div>
    </>

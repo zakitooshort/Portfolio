@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ContactForm from "./ContactForm";
 import SidePanel from "./SidePanel";
+import TooltipCursor from "./TooltipCursor";
 import dayjs from 'dayjs';
 import cat1 from "./assets/cat1.jpg";
 import cat2 from "./assets/cat2.jpg";
@@ -82,15 +83,18 @@ export default function App() {
           
           <div>
                     <div className="mt-10 flex  justify-center space-x-10 ">
+                    
                       <div className="flex  ">
-                        <img className=" w-[30.5vh] rounded  object-scale-down " src={cat1} alt="" />  </div>
-                      <div className="flex">
+                      <TooltipCursor content="PET!">
+                        <img className=" w-[30.5vh] rounded  object-scale-down " src={cat1} alt="" />
+                        </TooltipCursor> </div>
+                      <div className="flex"><TooltipCursor content="PET!">
                         <img className="w-[33vh] rounded  object-scale-down" src={cat6} alt="Halo" />
-                        </div>
-                        <div className="flex rounded"> 
-                        <img className="w-[30.5vh] rounded object-scale-down " src={cat5} alt="Halo" /></div>
-                      <div className="flex ">
-                        <img className=" w-[30.5vh] rounded object-scale-down " src={cat2} alt="" /></div>
+                        </TooltipCursor></div>
+                        <div className="flex rounded"> <TooltipCursor content="PET!">
+                        <img className="w-[30.5vh] rounded object-scale-down " src={cat5} alt="Halo" /></TooltipCursor></div>
+                      <div className="flex "><TooltipCursor content="PET!">
+                        <img className=" w-[30.5vh] rounded object-scale-down " src={cat2} alt="" /></TooltipCursor></div>
                     </div>
                    
            </div>
