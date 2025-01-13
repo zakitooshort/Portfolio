@@ -24,9 +24,9 @@ function SidePanel(){
           </Link>
         </li>
         <li>
-          <Link to="/cv.pdf" className="font-normal mb-10 mt-0.5 ml-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <a href="/CV.pdf" download className="font-normal mb-10 mt-0.5 ml-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             CV
-          </Link>
+          </a>
         </li>
       </ul>
       </div>
