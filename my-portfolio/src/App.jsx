@@ -33,9 +33,9 @@ export default function App() {
         <p className="flex-initial pt-6 mr-14  text-xl font-medium text-align-center">{now.format('dddd')} {now.format('MMMM D, YYYY')} {currentTime.toLocaleTimeString()}</p>
         </div>
         <div>
-          <h1 className="font-bold text-7xl pt-10 pl-[21vh]">OUZAI</h1>
-          <h1 className="font-bold text-6xl pt-2 pl-[34vh]">MOHAMED</h1>
-          <h1 className="font-bold text-6xl pt-2 pl-[48vh]">ZAKARIA</h1>
+          <h1 className="font-bold text-7xl pt-10 pl-[15%]">OUZAI</h1>
+          <h1 className="font-bold text-6xl pt-2 pl-[25%]">MOHAMED</h1>
+          <h1 className="font-bold text-6xl pt-2 pl-[35%]">ZAKARIA</h1>
           <hr class="border-[#A9A9A9] mt-10"/>
         </div>
         <div>
@@ -82,15 +82,15 @@ export default function App() {
                     
                       <div className="flex  ">
                       <TooltipCursor content="PET!">
-                        <img className=" w-[30.5vh] rounded  object-scale-down " src={cat1} alt="" />
+                        <img className=" w-[30.5vh] rounded  object-scale-down " src={cat1} alt="cat" />
                         </TooltipCursor> </div>
                       <div className="flex"><TooltipCursor content="PET!">
-                        <img className="w-[33vh] rounded  object-scale-down" src={cat6} alt="Halo" />
+                        <img className="w-[33vh] rounded  object-scale-down" src={cat6} alt="cat" />
                         </TooltipCursor></div>
                         <div className="flex rounded"> <TooltipCursor content="PET!">
-                        <img className="w-[30.5vh] rounded object-scale-down " src={cat5} alt="Halo" /></TooltipCursor></div>
+                        <img className="w-[30.5vh] rounded object-scale-down " src={cat5} alt="cat" /></TooltipCursor></div>
                       <div className="flex "><TooltipCursor content="PET!">
-                        <img className=" w-[30.5vh] rounded object-scale-down " src={cat2} alt="" /></TooltipCursor></div>
+                        <img className=" w-[30.5vh] rounded object-scale-down " src={cat2} alt="cat" /></TooltipCursor></div>
                     </div>
                    
            </div>
