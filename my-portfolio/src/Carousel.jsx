@@ -6,6 +6,7 @@ export default function Carousel({children: slides}){
   const next =() =>setCurr((curr)=>(curr==  slides.length - 1 ? 0 : curr+1))
   
   return (
+    <div className="@container">
     <div className="overflow-hidden relative">
       <div className="flex transition-transform ease-out duration-500" style={{transform: `translateX(-${curr * 100}%)`}}>{slides}</div>
       <div className="absolute inset-0 flex items-center justify-between p-4">
@@ -24,6 +25,7 @@ export default function Carousel({children: slides}){
         </div>
 
       </div>
+    </div>
     </div>
   )
 }

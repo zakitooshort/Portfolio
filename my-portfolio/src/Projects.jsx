@@ -15,14 +15,19 @@ export default function Projects() {
       <div className="divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414]">
         <SidePanel/>
         <main className="flex-1 text-white overflow-y-auto">
+          <div className="@container">
           <div className="mt-4"></div>
         <span class="flex-shrink text-bold ml-10 mx-4 text-3xl ">Completed Projects</span>
         <div class="flex-grow border-t-[3px] "></div>
-          <div className="flex flex-wrap md:flex-nowrap gap-8 pt-10 pr-10 pl-10 mb-10">
+          <div className="flex min-w-[60vh] gap-8 pt-10 pr-10 pl-10 mb-10 flex-wrap @[1250px]:flex-nowrap ">
             
-            <div className="md:w-2/3 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
+            <div className="@[1250px]:w-3/5 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
               <h2 className="text-2xl font-bold mb-2">My Personal Portfolio</h2>
-              <p className="text-gray-300 mb-4">
+              <p className="text-gray-300 mb-4 max-h-[110px] overflow-y-auto [&::-webkit-scrollbar]:w-[5px]
+              [&::-webkit-scrollbar-track]:bg-gray-100
+              [&::-webkit-scrollbar-thumb]:bg-[#454545]
+              dark:[&::-webkit-scrollbar-track]:bg-neutral-700
+               dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
                 This portfolio is a creative and personal showcase of my journey as a developer.
                 Built with React and styled using Tailwind CSS, it represents my evolving skills and interests in development.
                 It features thoughtful sections such as "About Me," "Ideas," and "Thoughts," where I share my projects, 
@@ -50,7 +55,7 @@ export default function Projects() {
                 <a href="https://github.com/zakitooshort/Portfolio/tree/main" target="_blank" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
               </div>
             </div>
-            <div className="md:w-1/3 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
+            <div className="@[1250px]:w-3/5 w-2/4 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
             <div className="max-w-lg">
               <Carousel>
                 {slides.map((s)=>(
@@ -94,6 +99,7 @@ export default function Projects() {
 
             
 
+          </div>
           </div>
         </main>
       </div>
