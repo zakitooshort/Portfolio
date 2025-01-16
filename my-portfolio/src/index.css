@@ -18,3 +18,25 @@
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+.list {
+  container-type: inline-size;
+}
+
+@container (min-width: 600px) {
+  .skill {
+    @apply w-[9vh] h-[9vh]; 
+  }
+  .skill img {
+    @apply w-[9vh] h-[9vh];
+  }
+  
+}
+@container (min-width: 1200px) {
+  .skill {
+    @apply w-[11vh] h-[11vh]; 
+  }
+  .skill img {
+    @apply w-[11vh] h-[11vh];
+  }
+  
+}

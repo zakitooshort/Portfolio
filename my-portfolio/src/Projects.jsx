@@ -27,7 +27,7 @@ export default function Projects() {
               [&::-webkit-scrollbar-track]:bg-gray-100
               [&::-webkit-scrollbar-thumb]:bg-[#454545]
               dark:[&::-webkit-scrollbar-track]:bg-neutral-700
-               dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
+               dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 ">
                 This portfolio is a creative and personal showcase of my journey as a developer.
                 Built with React and styled using Tailwind CSS, it represents my evolving skills and interests in development.
                 It features thoughtful sections such as "About Me," "Ideas," and "Thoughts," where I share my projects, 
@@ -55,13 +55,15 @@ export default function Projects() {
                 <a href="https://github.com/zakitooshort/Portfolio/tree/main" target="_blank" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
               </div>
             </div>
-            <div className="@[1250px]:w-3/5 w-2/4 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
+            <div className="@[1250px]:w-3/5 @[690px]:ml-[2%] @[700px]:ml-[5%] @[750px]:ml-[10%] @[1050px]:ml-[15%] @[1110px]:ml-[20%] @[1250px]:ml-0 overflow-auto max-w-[60vh] max-h-[600px] flex justify-center items-center">
+            <div className="border p-4 rounded-lg shadow-lg w-[60vh]">
             <div className="max-w-lg">
               <Carousel>
                 {slides.map((s)=>(
                   <img src={s}/>
                 ))}
               </Carousel>
+            </div>
             </div>
             </div>
 
