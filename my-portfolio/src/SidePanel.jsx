@@ -12,20 +12,20 @@ function SidePanel(){
     
     <nav>
       <div class="grid grid-cols-1 divide-y-[0.5px] divide-[#A9A9A9]">
-        <div><ul className="space-y-2">
+        <div><ul className="@[360px]:space-y-2">
         <li>
     
-          <Link to="/About" className="font-normal @[260px]:mt-2  mt-[-5%] ml-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl inline-block m-2 rounded hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/About" className="font-normal @[360px]:mt-2  mt-[-5%] ml-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl inline-block m-2 rounded hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             About
           </Link>
         </li>
         <li>
-          <Link to="/Ideas" className="font-normal @[260px]:mt-2  mt-[-6%] mt-0.5 ml-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/Ideas" className="font-normal @[360px]:mt-2  mt-[-6%] mt-0.5 ml-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             Ideas
           </Link>
         </li>
         <li>
-          <a href="/CV.pdf" download className="font-normal mb-[10px] @[260px]:mb-10 @[260px]:mt-2  mt-[-5%] ml-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <a href="/CV.pdf" download className="font-normal mb-[8px] @[360px]:mb-10 @[360px]:mt-2  mt-[-5%] ml-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             CV
           </a>
         </li>
@@ -34,7 +34,7 @@ function SidePanel(){
 
 
       <div>
-        <h3 className="opacity-75 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl  tracking-widest font-normal mb-0 @[260px]:mb-4 pt-4 pl-6">MILESTONES</h3>
+        <h3 className="opacity-75 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl  tracking-widest font-normal mb-0 @[360px]:mb-4 pt-4 pl-6">MILESTONES</h3>
         <ul className="">
         <li>
           <Link to="/Projects" className=" font-normal pt-2 pl-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
@@ -47,7 +47,7 @@ function SidePanel(){
           </Link>
         </li>
         <li>
-          <Link to="/Goals" className="font-normal  @[260px]:mb-24 mb-6 pt-0.5 pl-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out ">
+          <Link to="/Goals" className="font-normal  @[360px]:mb-24 mb-4 pt-0.5 pl-6 @[200px]:text-[18px] @[240px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out ">
             Goals
           </Link>
         </li>
