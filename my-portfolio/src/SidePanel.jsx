@@ -15,17 +15,17 @@ function SidePanel(){
         <div><ul className="@[300px]:space-y-2 ">
         <li>
     
-          <Link to="/About" className="sidebar-link-1 font-normal @[200px]:mt-2  mt-[-5%] ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl inline-block m-2 rounded hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/About" className="sidebar-link-1 font-normal @[200px]:pt-4  mt-[-5%] ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl inline-block m-2 rounded hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             About
           </Link>
         </li>
         <li>
-          <Link to="/Ideas" className="sidebar-link-1 font-normal @[200px]:mt-2  mt-[-6%]  ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/Ideas" className="sidebar-link-1 font-normal @[200px]:pt-0  pt-0  ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-0 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             Ideas
           </Link>
         </li>
         <li>
-          <a href="/CV.pdf" download className="sidebar-link-bottom font-normal mb-[8px] @[200px]:mb-8 @[300px]:mb-10 @[200px]:mt-2  mt-[-5%] ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <a href="/CV.pdf" download className="sidebar-link-bottom font-normal pb-[4px] @[200px]:mb-8 @[300px]:mb-10 @[200px]:mt-2  mt-[-5%] ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             CV
           </a>
         </li>

@@ -68,7 +68,7 @@
     @apply pt-0;
   }
   .sidepanel .sidebar-link-title {
-    @apply mb-[-10px]; 
+    @apply mb-[5px]; 
     @apply pt-2; 
   }
   .sidepanel .sidebar-link-title-2 {
@@ -82,7 +82,7 @@
 }
 
 
-@container (min-height: 700px) {
+@container (min-height: 800px) {
   .sidepanel .sidebar-link-bottom {
     @apply mt-2;
     @apply mb-10; 
