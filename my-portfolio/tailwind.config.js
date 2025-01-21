@@ -1,9 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  mode: 'jit',
+  purge: ['./src/**/*.{js,jsx,ts,tsx,html}', './public/index.html'],
   theme: {
     extend: {
       fontFamily:{
@@ -13,5 +11,9 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/container-queries'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+
   ],
 }
