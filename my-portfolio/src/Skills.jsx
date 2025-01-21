@@ -1,4 +1,5 @@
 import SidePanel from "./SidePanel";
+import MobileNavbar from "./MobileNavbar";
 import M from "./assets/M.png";
 import html from "./assets/html.png";
 import css from "./assets/css.png";
@@ -54,8 +55,12 @@ import lock from "./assets/lock.png";
 export default function Skills() {
   return (
     <>   
-    <div className="divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414]">
-      <SidePanel/>
+    <div className="@[800px]:divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414] @container">
+    <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanel ">
+    <SidePanel/></aside>
+    <nav className="block @[800px]:hidden">
+        <MobileNavbar />
+      </nav>
       <main className="flex-1 space-6 text-white overflow-y-auto ">
       <div className="@container">
           <div class="text-center text-semibold  m-4 @[200px]:text-[20px] @[700px]:text-[25px] @[900px]:text-3xl @[1000px]:text-4xl">SKILLS</div>

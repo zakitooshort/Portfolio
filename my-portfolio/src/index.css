@@ -48,7 +48,6 @@
   container-type: inline-size;
   container-type: size; 
 }
-
 @container (min-height: 500px) {
   .sidepanel .sidebar-link-bottom {
     @apply mt-[3px];

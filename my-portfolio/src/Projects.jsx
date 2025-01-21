@@ -1,5 +1,6 @@
 import SidePanel from "./SidePanel";
 import Carousel from "./Carousel.jsx";
+import MobileNavbar from "./MobileNavbar";
 import ss1 from "./assets/ss1.png";
 import ss2 from "./assets/ss2.png";
 import ss3 from "./assets/ss3.png";
@@ -12,8 +13,12 @@ const slides=[
 export default function Projects() {
   return (
     <>   
-      <div className="divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414]">
-        <SidePanel/>
+      <div className="@[800px]:divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414] @container">
+      <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanel ">
+      <SidePanel/></aside>
+      <nav className="block @[800px]:hidden">
+        <MobileNavbar />
+      </nav>
         <main className="flex-1 text-white overflow-y-auto">
           <div className="@container">
           <div className="mt-4"></div>

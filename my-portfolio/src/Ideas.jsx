@@ -1,4 +1,5 @@
 import SidePanel from "./SidePanel";
+import MobileNavbar from "./MobileNavbar";
 import React, { useState } from "react";
 import idea1 from "./assets/idea1.png";
 import idea2 from "./assets/idea2.png";
@@ -36,8 +37,12 @@ export default function Ideas() {
   }
   return (
     <>   
-    <div className="divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414]">
-      <SidePanel/>
+    <div className="@[800px]:divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414] @container">
+    <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanel ">
+    <SidePanel/></aside>
+    <nav className="block @[800px]:hidden">
+        <MobileNavbar />
+      </nav>
       <main className="flex-1 space-6 text-white overflow-y-auto">
       <div class="relative flex py-5 items-center">
           <span class="flex-shrink text-semibold ml-10 mx-4 text-4xl">IDEAS</span>

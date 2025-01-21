@@ -5,19 +5,20 @@ function SidePanel(){
     window.location.href = 'mailto:zakip1r1o13@gmail.com';
   };
   return(
-    <aside className="w-1/5 text-white space--4 sticky top-0 h-100% sidepanel">
+    <aside className="sticky full text-white space--4 top-0 h-100% sidepanel ">
     <div className="@container">
     <div className="container">
-    <Link to="/"><h2 className="sidebar-link-title @[200px]:text-[20px] @[240px]:text-[25px] @[277px]:text-3xl @[330px]:text-4xl font-semibold mb-4 pt-6 pl-6">ZAKITOOSHORT</h2></Link>
+    <Link to="/"><h2 className="inline-block sidebar-link-title @[200px]:text-[20px] @[240px]:text-[25px] @[277px]:text-3xl @[330px]:text-4xl font-semibold mb-4 pt-6 pl-6">ZAKITOOSHORT</h2></Link>
     
     <nav>
       <div class="grid grid-cols-1 divide-y-[0.5px] divide-[#A9A9A9]">
         <div><ul className="@[300px]:space-y-2 ">
         <li>
     
-          <Link to="/About" className="sidebar-link-1 font-normal @[200px]:pt-4  mt-[-5%] ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl inline-block m-2 rounded hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="/About" className="inline-block sidebar-link-1 font-normal @[200px]:pt-4  mt-[-5%] ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  m-2 rounded hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             About
           </Link>
+          
         </li>
         <li>
           <Link to="/Ideas" className="sidebar-link-1 font-normal pt-0  ml-6 text-[16px] @[250px]:text-[20px] @[277px]:text-2xl @[330px]:text-3xl  inline-block m-0 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
@@ -34,7 +35,7 @@ function SidePanel(){
 
 
       <div>
-        <h3 className="sidebar-link-title-2 opacity-75 text-[16px] @[250px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl  tracking-widest sidebar-link font-normal mb-0 @[200px]:mb-4 pt-4 pl-6">MILESTONES</h3>
+        <h3 className="sidebar-link-title-2 opacity-75 text-[16px] @[250px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl  tracking-widest sidebar-link font-normal mb-0 @[200px]:mb-4 pt-4 pl-6 inline-block">MILESTONES</h3>
         <ul className="">
         <li>
           <Link to="/Projects" className=" sidebar-link-2 font-normal pt-2 pl-6 text-[16px] @[250px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
@@ -57,7 +58,7 @@ function SidePanel(){
 
 
       <div>
-      <h3 className="opacity-75 text-[16px] @[250px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl tracking-widest sidebar-link-title-3 font-normal mb-4 pt-6 pl-6">CONTACT</h3>
+      <h3 className="inline-block opacity-75 text-[16px] @[250px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl tracking-widest sidebar-link-title-3 font-normal mb-4 pt-6 pl-6">CONTACT</h3>
         <ul>
         <li>
           <Link to="#" onClick={handleMailClick} className=" sidebar-link-3 font-normal pt-2 pl-6 text-[16px] @[250px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
@@ -87,7 +88,7 @@ function SidePanel(){
       </ul></div>
       </div>
       
-    </nav></div></div>
+    </nav></div></div> 
   </aside>
   )
 }
