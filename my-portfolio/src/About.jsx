@@ -83,10 +83,10 @@ export default function About() {
           </div>
          </div>
          <div><p className="ml-12 mt-10 @[600px]:text-md @[900px]:text-lg @[1200px]:text-xl text-[#A9A9A9]">Fav video game series:</p>
-          <div className="mt-5 flex space-x-4">
-            <div className="flex-1"><img className="ml-20 @[600px]:w-[20vh] @[900px]:w-[30vh] @[1200px]:h-[70%]  object-scale-down " src={bo1} alt="call of duty black ops 1" /><p className="ml-28">Call Of Duty Black Ops Zombies</p>  </div>
-            <div className="flex-1"><img className="ml-12 @[600px]:w-[20vh] @[900px]:w-[30vh] @[1200px]:h-[70%]  object-scale-down " src={assassin} alt="Assassin's creed" /><p className="ml-20">Assassin's Creed</p></div>
-            <div className="flex-1"><img className="@[600px]:w-[20vh] @[900px]:w-[30vh] @[1200px]:h-[70%]  object-scale-down " src={halo} alt="Halo" /><p className="ml-10">Halo series </p></div>
+          <div className="mt-5  @[600px]:flex space-x-4">
+            <div className="flex-1"><img className="ml-24 @[600px]:ml-8 @[700px]:ml-10 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={bo1} alt="call of duty black ops 1" /><p className="ml-24 mt-2 @[750px]:text-lg text-sm">Call Of Duty Black Ops Zombies</p>  </div>
+            <div className="flex-1"><img className="ml-20 @[600px]:ml-8 @[700px]:ml-10 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={assassin} alt="Assassin's creed" /><p className="ml-20 mt-2">Assassin's Creed</p></div>
+            <div className="flex-1"><img className="ml-20 @[600px]:ml-8 @[700px]:ml-10 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={halo} alt="Halo" /><p className="ml-20 mt-2">Halo series </p></div>
           </div>
          </div>
          </div>

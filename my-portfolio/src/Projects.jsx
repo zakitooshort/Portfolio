@@ -81,11 +81,7 @@ export default function Projects() {
             <div className=" w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
               <h2 className="text-2xl font-bold mb-2">Minesweeper Game with AI Solver</h2>
               <p className="text-gray-300 mb-4">
-                This portfolio is a creative and personal showcase of my journey as a developer.
-                Built with React and styled using Tailwind CSS, it represents my evolving skills and interests in development.
-                It features thoughtful sections such as "About Me," "Ideas," and "Thoughts," where I share my projects, 
-                inspirations, and personal reflections.
-                It’s a personal space where I express my love for technology, design, and creativity.
+              This project combines the classic Minesweeper game with an AI powered by the NEAT algorithm. The AI learns and improves its strategies, identifying patterns and solving the game intelligently. It's a blend of game development and machine learning in action.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">

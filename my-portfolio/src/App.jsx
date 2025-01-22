@@ -27,7 +27,7 @@ export default function App() {
     <>
     
     <div className="@[800px]:divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414] @container">
-      <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanel ">
+      <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanelmother ">
       <SidePanel/></aside>
       <nav className="block @[800px]:hidden">
         <MobileNavbar />

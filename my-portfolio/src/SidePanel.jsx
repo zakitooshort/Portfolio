@@ -5,7 +5,7 @@ function SidePanel(){
     window.location.href = 'mailto:zakip1r1o13@gmail.com';
   };
   return(
-    <aside className="sticky full text-white space--4 top-0 h-100% sidepanel ">
+    <aside className="sticky text-white space--4 top-0 h-100% sidepanel ">
     <div className="@container">
     <div className="container">
     <Link to="/"><h2 className="inline-block sidebar-link-title @[200px]:text-[20px] @[240px]:text-[25px] @[277px]:text-3xl @[330px]:text-4xl font-semibold mb-4 pt-6 pl-6">ZAKITOOSHORT</h2></Link>
