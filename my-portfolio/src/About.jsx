@@ -77,16 +77,16 @@ export default function About() {
          </div>
          <div><p className=" ml-1 mt-1 @[500px]:ml-6 @[500px]:mt-6 @[900px]:ml-12 @[900px]:mt-10 @[600px]:text-md @[900px]:text-lg @[1200px]:text-xl text-[#A9A9A9]">Going out with friends:</p>
           <div className="mt-5 ml-[5%] @[600px]:flex space-x-4">
-            <div className="flex-1"><img className="ml-20 @[600px]:ml-0 w-[30vh] @[600px]:w-[18vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={noodles} alt="noodles" /><p className="ml-28 mt-4">Eating</p>  </div>
-            <div className="flex-1"><img className="ml-16 @[600px]:ml-0 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[18vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={out} alt="going out" /><p className="ml-20 mt-4">Having fun</p></div>
-            <div className="flex-1"><img className="ml-16 @[600px]:ml-0 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[18vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={beach} alt="beach" /><p className="ml-20 @[600px]:ml-4  mt-4">Visiting the beach</p></div>
+            <div className="flex-1"><img className="ml-[18%] @[600px]:ml-0 w-[30vh] @[600px]:w-[18vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={noodles} alt="noodles" /><p className="ml-28 mt-4">Eating</p>  </div>
+            <div className="flex-1"><img className="ml-[15%] @[600px]:ml-0 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[18vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={out} alt="going out" /><p className="ml-20 mt-4">Having fun</p></div>
+            <div className="flex-1"><img className="ml-[15%] @[600px]:ml-0 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[18vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={beach} alt="beach" /><p className="ml-20 @[600px]:ml-4  mt-4">Visiting the beach</p></div>
           </div>
          </div>
          <div><p className=" ml-1 mt-1 @[500px]:ml-6 @[500px]:mt-6 @[900px]:ml-12 @[900px]:mt-10 @[600px]:text-md @[900px]:text-lg @[1200px]:text-xl text-[#A9A9A9]">Fav video game series:</p>
           <div className="mt-5  @[600px]:flex space-x-4">
-            <div className="flex-1"><img className="ml-24 @[600px]:ml-8 @[700px]:ml-10 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={bo1} alt="call of duty black ops 1" /><p className="ml-24 @[450px]:ml-12 mt-2 text-[13px]">Call Of Duty Black Ops Zombies</p>  </div>
-            <div className="flex-1"><img className="ml-20 @[600px]:ml-8 @[700px]:ml-10 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={assassin} alt="Assassin's creed" /><p className="ml-20 mt-2">Assassin's Creed</p></div>
-            <div className="flex-1"><img className="ml-20 @[600px]:ml-8 @[700px]:ml-10 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={halo} alt="Halo" /><p className="ml-20 mt-2">Halo series </p></div>
+            <div className="flex-1"><img className="ml-[20%] @[600px]:ml-8 @[700px]:ml-10 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={bo1} alt="call of duty black ops 1" /><p className="ml-[20%] @[450px]:ml-12 mt-2 text-[13px]">Call Of Duty Black Ops Zombies</p>  </div>
+            <div className="flex-1"><img className="ml-[17%] @[600px]:ml-8 @[700px]:ml-10 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={assassin} alt="Assassin's creed" /><p className="ml-20 mt-2">Assassin's Creed</p></div>
+            <div className="flex-1"><img className="ml-[17%] @[600px]:ml-8 @[700px]:ml-10 mt-8 @[600px]:mt-0 w-[30vh] @[600px]:w-[17vh] @[750px]:w-[20vh] @[900px]:w-[25vh] @[1200px]:w-[30vh]  object-scale-down " src={halo} alt="Halo" /><p className="ml-20 mt-2">Halo series </p></div>
           </div>
          </div>
          </div>
