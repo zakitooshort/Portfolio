@@ -38,17 +38,17 @@ export default function Ideas() {
   return (
     <>   
     <div className="@[800px]:divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414] @container">
-    <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanel ">
+    <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanelmother ">
     <SidePanel/></aside>
     <nav className="block @[800px]:hidden">
         <MobileNavbar />
       </nav>
       <main className="flex-1 space-6 text-white overflow-y-auto">
-      <div class="relative flex py-5 items-center">
-          <span class="flex-shrink text-semibold ml-10 mx-4 text-4xl">IDEAS</span>
+      <div class="relative flex py-5 items-center mt-8 @[800px]:mt-0">
+          <span class="flex-shrink text-semibold @[800px]:ml-10 mx-2 @[800px]:mx-4 text-4xl">IDEAS</span>
           <div class="flex-grow border-t-[3px] "></div>
          </div>
-         <div class="flex items-center justify-between space-x-4 m-12 ">
+         <div class="@[1100px]:flex items-center justify-between space-y-4 @[1100px]:space-y-0 @[1100px]:space-x-4 @[1100px]:mt-12  mb-4 mt-2 m-12 ">
           <div class="flex-1 p-6 border border-gray-300 shadow-lg overflow-y-auto
            [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-500 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 max-h-96 h-96 ">
             <h2 class="text-2xl font-semibold">Emotion-Mirroring Mirror</h2>
@@ -80,7 +80,7 @@ export default function Ideas() {
 
           <div class="w-px  bg-gray-300"></div>
 
-          <div class="flex-1 p-6 border border-gray-300 shadow-lg max-h-96 h-96 overflow-y-auto
+          <div class="flex-1 p-6 border border-gray-300 shadow-lg m max-h-96 h-96 overflow-y-auto
            [&::-webkit-scrollbar]:w-2
               [&::-webkit-scrollbar-track]:bg-gray-100
               [&::-webkit-scrollbar-thumb]:bg-gray-500
@@ -114,7 +114,7 @@ export default function Ideas() {
             )}
         </div>
         
-         <div class="flex items-center justify-between space-x-4 m-12 ">
+         <div class="@[1100px]:flex items-center justify-between space-y-4 @[1100px]:space-y-0 @[1100px]:space-x-4 @[1100px]:mt-12  mb-4 mt-2 m-12 ">
           <div class="flex-1 p-6 border border-gray-300 shadow-lg overflow-y-auto
            [&::-webkit-scrollbar]:w-2
               [&::-webkit-scrollbar-track]:bg-gray-100
@@ -146,7 +146,7 @@ export default function Ideas() {
                
             </div>
             )}
-          <div class="w-px h-full bg-gray-300"></div>
+          <div class="@[1100px]:w-px bg-gray-300"></div>
 
           <div class="flex-1 p-6 border border-gray-300 shadow-lg max-h-96 h-96 overflow-y-auto
            [&::-webkit-scrollbar]:w-2
@@ -182,7 +182,7 @@ export default function Ideas() {
             )}
         </div>
 
-        <div class="flex items-center justify-between space-x-4 m-12 ">
+        <div class="@[1100px]:flex items-center justify-between space-y-4 @[1100px]:space-y-0 @[1100px]:space-x-4 @[1100px]:mt-12  mb-4 mt-2 m-12 ">
           <div class="flex-1 p-6 border border-gray-300 shadow-lg overflow-y-auto
            [&::-webkit-scrollbar]:w-2
               [&::-webkit-scrollbar-track]:bg-gray-100
@@ -216,7 +216,7 @@ export default function Ideas() {
             </div>
             )}
 
-          <div class="w-px  bg-gray-300"></div>
+          <div class="@[1100px]:w-px  bg-gray-300"></div>
 
           <div class="flex-1 p-6 border border-gray-300 shadow-lg max-h-96 h-96 overflow-y-auto
            [&::-webkit-scrollbar]:w-2

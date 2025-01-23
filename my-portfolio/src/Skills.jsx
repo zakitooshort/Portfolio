@@ -56,224 +56,221 @@ export default function Skills() {
   return (
     <>   
     <div className="@[800px]:divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414] @container">
-    <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanel ">
+    <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanelmother ">
     <SidePanel/></aside>
     <nav className="block @[800px]:hidden">
         <MobileNavbar />
       </nav>
-      <main className="flex-1 space-6 text-white overflow-y-auto ">
-      <div className="@container">
+      <main className="list flex-1 space-6 text-white overflow-y-auto ">
+      
           <div class="text-center text-semibold  m-4 @[200px]:text-[20px] @[700px]:text-[25px] @[900px]:text-3xl @[1000px]:text-4xl">SKILLS</div>
           <hr className="mt-2 mb-2"/>
-          <div class="text-semibold ml-20 m-4 @[200px]:text-[17px] @[700px]:text-[22px] @[900px]:text-2xl @[1000px]:text-3xl">Languages,Frameworks,Programs acquired / Seek to acquire:</div>
+          <div class="text-semibold ml-2 @[200px]:ml-10 @[700px]:ml-20 m-4 @[200px]:text-[17px] @[700px]:text-[22px] @[900px]:text-2xl @[1050px]:text-3xl">Languages,Frameworks,Programs acquired / Seek to acquire:</div>
           
           
-        <div className=" flex flex-wrap pl-10 ">  
-          <div className="list"></div>
-        <div className="skill relative  ml-10 m-8 w-[11vh] h-[11vh] ">
+        <div className=" flex flex-wrap pl-8 @[700px]:pl-10 ">  
+        <div className="skill relative  ml-6 @[600px]:ml-10 m-6 w-[11vh] h-[11vh] ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div> 
-              <img src={html} alt="html" className="absolute z-0 h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+              <img src={html} alt="html" className="absolute z-0 h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
               
             </div>
-           
-            
-           <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+           <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div> 
-              <img src={css} alt="css" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+              <img src={css} alt="css" className="relative h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
             </div>                             
             
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={javascript} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={javascript} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={React} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={React} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={vuejs} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={vuejs} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={postgres} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={postgres} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={python} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={python} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Django} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" /></div>
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Django} alt="" className="relative h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" /></div>
   
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={github} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={github} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              </div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={git} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={git} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              </div>
 
-             <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={figma} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={figma} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              </div>
 
-             <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
             <div className="absolute inset-0 bg-[#fff] blur-lg"></div>
-             <img src={typescript} alt="" className="absolute z-0 h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={typescript} alt="" className="absolute z-0 h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" />
              </div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div>
-             <img src={angular} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={angular} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={astro} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={astro} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={next} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={next} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={nuxtjs} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={nuxtjs} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-             <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={jquery} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={jquery} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
              
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={svelte} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={svelte} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
              
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={preact} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={preact} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={quarkus} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={quarkus} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={solidjs} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={solidjs} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={aiohttp} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={aiohttp} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={java} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={java} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-             <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={springboot} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={springboot} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={C} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={C} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Cplus} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Cplus} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Chashtag} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={Chashtag} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
              
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={assembly} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={assembly} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={rails} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={rails} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={RUby} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={RUby} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={node} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={node} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={express} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={express} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-             <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={nest} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={nest} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
              
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={koa} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={koa} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-             <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={qwik} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={qwik} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={flask} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={flask} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={fastify} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={fastify} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={fastapi} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={fastapi} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={flutter} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={flutter} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-             <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={reactnative} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={reactnative} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
               <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={go} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={go} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-             <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={gin} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={gin} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
 
             
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={netcore} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={netcore} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={php} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={php} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
              
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={laravel} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={laravel} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={rust} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={rust} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={mongo} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={mongo} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
             
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-10 m-8 ">
+            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div>
-             <img src={lua} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-3xl bg-[#36454F] p-3" />
+             <img src={lua} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
           </div>
-          </div>
+          
       </main>
     </div>
    </>

@@ -81,7 +81,7 @@ function SidePanel(){
           </Link>
         </li>
         <li>
-          <Link to="https://leetcode.com/u/zakitooshort/" target="_blank" className="sidebar-link-3 font-normal pt-2 pl-6 text-[16px] @[250px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
+          <Link to="https://leetcode.com/u/zakitooshort/" target="_blank" className="sidebar-link-3 font-normal pt-2 pl-6 pb-[0px] text-[16px] @[250px]:text-[20px] @[277px]:text-1xl @[330px]:text-2xl inline-block p-2 rounded  hover:text-[#B6B6B4] hover:underline transition duration-200 ease-in-out">
             Leetcode
           </Link>
         </li>

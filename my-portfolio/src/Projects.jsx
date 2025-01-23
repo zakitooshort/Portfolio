@@ -14,25 +14,25 @@ export default function Projects() {
   return (
     <>   
       <div className="@[800px]:divide-x-[0.5px] divide-[#A9A9A9] flex h-screen font-['Montserrat'] bg-[#141414] @container">
-      <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanel ">
+      <aside className="hidden @[800px]:block sticky w-1/5 text-white space--4 top-0 h-100% sidepanelmother ">
       <SidePanel/></aside>
       <nav className="block @[800px]:hidden">
         <MobileNavbar />
       </nav>
         <main className="flex-1 text-white overflow-y-auto">
           <div className="@container">
-          <div className="mt-4"></div>
-        <span class="flex-shrink text-bold ml-10 mx-4 text-3xl ">Completed Projects</span>
-        <div class="flex-grow border-t-[3px] "></div>
-          <div className="flex min-w-[60vh] gap-8 pt-10 pr-10 pl-10 mb-10 flex-wrap @[1250px]:flex-nowrap ">
+          <div className="mt-12 @[1000px]:mt-6"></div>
+        <span class="flex-shrink text-bold ml-10  mx-4 text-[18px] @[500px]:text-[20px] @[600px]:text-2xl @[700px]:text-3xl ">Completed Projects</span>
+        <div class="flex-grow border-t-[3px] mt-2"></div>
+          <div className="flex gap-8 pt-10 pr-10 pl-10 mb-10 flex-wrap @[1250px]:flex-nowrap ">
             
             <div className="@[1250px]:w-3/5 w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
-              <h2 className="text-2xl font-bold mb-2">My Personal Portfolio</h2>
+              <h2 className="text-[16px] @[500px]:text-[18px] @[600px]:text-[20px] @[700px]:text-2xl font-bold mb-2">My Personal Portfolio</h2>
               <p className="text-gray-300 mb-4 max-h-[110px] overflow-y-auto [&::-webkit-scrollbar]:w-[5px]
               [&::-webkit-scrollbar-track]:bg-gray-100
               [&::-webkit-scrollbar-thumb]:bg-[#454545]
               dark:[&::-webkit-scrollbar-track]:bg-neutral-700
-               dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 ">
+               dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                 This portfolio is a creative and personal showcase of my journey as a developer.
                 Built with React and styled using Tailwind CSS, it represents my evolving skills and interests in development.
                 It features thoughtful sections such as "About Me," "Ideas," and "Thoughts," where I share my projects, 
@@ -40,24 +40,24 @@ export default function Projects() {
                 It’s a personal space where I express my love for technology, design, and creativity.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">
+                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                   React
                 </button>
-                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">
+                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                   Tailwind CSS
                 </button>
-                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">
+                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                  Vite 
                 </button>
-                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">
+                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                   Email js
                 </button>
-                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">
+                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                   DayJS 
                 </button>
               </div>
               <div className="flex gap-4">
-                <a href="https://github.com/zakitooshort/Portfolio/tree/main" target="_blank" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
+                <a href="https://github.com/zakitooshort/Portfolio/tree/main" target="_blank" className="text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px] bg-gray-500 text-white px-2 py-1 @[500px]:px-4 @[500px]:py-2 rounded-md hover:bg-gray-600">Source Code</a>
               </div>
             </div>
             <div className="@[1250px]:w-3/5   @[1110px]:ml-[20%] @[1250px]:ml-0 overflow-auto max-w-[60vh] max-h-[600px] flex justify-center items-center">
@@ -74,34 +74,31 @@ export default function Projects() {
 
           </div>
           
-        <span class="flex-shrink text-bold ml-10 mx-4 text-3xl">In Progress Projects</span>
-        <div class="flex-grow border-t-[3px] "></div>
+        <span class="flex-shrink text-bold ml-10 mx-4  text-[18px] @[500px]:text-[20px] @[600px]:text-2xl @[700px]:text-3xl ">In Progress Projects</span>
+        <div class="flex-grow border-t-[3px] mt-4"></div>
           <div className="flex flex-wrap md:flex-nowrap gap-8 p-10">
             
             <div className=" w-full border p-4 rounded-lg shadow-lg overflow-auto max-h-[600px]">
-              <h2 className="text-2xl font-bold mb-2">Minesweeper Game with AI Solver</h2>
-              <p className="text-gray-300 mb-4">
+              <h2 className="text-2xl font-bold mb-2 text-[16px] @[500px]:text-[18px] @[600px]:text-[20px] @[700px]:text-2xl">Minesweeper Game with AI Solver</h2>
+              <p className="text-gray-300 mb-4 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
               This project combines the classic Minesweeper game with an AI powered by the NEAT algorithm. The AI learns and improves its strategies, identifying patterns and solving the game intelligently. It's a blend of game development and machine learning in action.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">
+                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                  Python
                 </button>
-                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">
+                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                 Pygame
                 </button>
-                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1">
+                <button className="border-[#A9A9A9] rounded-full border-2 px-2 py-1 text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px]">
                 NEAT 
                 </button>
                 
               </div>
               <div className="flex gap-4">
-                <a href="https://github.com/zakitooshort/minesweeper-Ai-Solver" target="_blank" className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Source Code</a>
+                <a href="https://github.com/zakitooshort/minesweeper-Ai-Solver" target="_blank" className="text-white text-[12px] @[500px]:text-[14px] @[600px]:text-[16px] @[700px]:text-[18px] bg-gray-500 text-white px-2 py-1 @[500px]:px-4 @[500px]:py-2  rounded-md hover:bg-gray-600">Source Code</a>
               </div>
             </div>
-
-            
-
           </div>
           </div>
         </main>
