@@ -6,9 +6,15 @@ import MobileNavbar from "./MobileNavbar";
 import dayjs from 'dayjs';
 import Footer from './Footer';
 import cat1 from "./assets/cat1.jpg";
+import art1 from "./assets/art1.jpg";
+import art2 from "./assets/art2.jpg";
 import cat2 from "./assets/cat2.jpg";
 import cat5 from "./assets/cat5.jpg";
 import cat6 from "./assets/cat6.jpg";
+import noisy from "./assets/noisy.jpg";
+import simple from "./assets/simple.jpg";
+import CloseOnes1 from "./assets/CloseOnes1.jpg";
+import CloseOnes2 from "./assets/CloseOnes2.jpg";
 
 
 export default function App() {
@@ -58,12 +64,29 @@ export default function App() {
           <p className="font-medium @[600px]:text-[16px] text-[14px] @[500px]:text-[18px] @[700px]:text-[18px] @[900px]:text-[20px] @[1000px]:text-[21px] @[1200px]:text-[22px] pt-10 pl-[5vh] pr-[8vh] @[700px]:pl-[11vh] @[700px]:pr-[18vh]">Art and technology have always been two sides of the same coin for me both driven by creativity, innovation, and the ability to evoke emotion.
             <br /> <br />At their intersection lies a space where logic meets imagination, and that's where I see myself.
             <br /> <br />In this intersection, I find inspiration, purpose, and an infinite playground for innovation. It’s a space where every line of code has the potential to tell a story, evoke emotion, or inspire others to dream big.</p>
+            <p className="font-medium @[600px]:text-[16px] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px] @[1000px]:text-[18px] @[1200px]:text-[20px] pt-10 pl-[5vh] pr-[8vh] @[700px]:pl-[11vh] @[700px]:pr-[18vh]">Favorite pieces of art using technology: John Wynne - Manipulating the Sound, Shows of Rafael Lozano-Hemmer</p>
+            <div className="@[700px]:flex">
+              <div className="flex-1 self-center"><img src={art1} alt="John Wynne" className="self-center w-[70%] @[700px]:w-[60%] mt-10 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[18vh]" />
+              <p className="mt-6 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[23vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">John Wynne</p>
+            </div>
+              <div className="flex-1 self-center "><img src={art2} alt="Rafael Lozano-Hemmer" className="self-center w-[70%] @[700px]:w-[60%] mt-10 ml-[5vh] mr-[8vh] @[700px]:ml-[11vh] @[700px]:mr-[18vh]" />
+              <p className="mt-6 ml-[3vh] mr-[8vh] @[700px]:ml-[11vh] @[700px]:mr-[18vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Rafael Lozano-Hemmer</p>
+            </div>
+            </div>
           </div>
           <p className="font-medium text-[#999999] italic text-[16px] @[500px]:text-[18px] @[600px]:text-[20px] @[700px]:text-[22px] @[900px]:text-[24px] @[1000px]:text-[25px] @[1200px]:text-[26px] pt-10 pl-[5vh] pr-[8vh] @[700px]:pl-[11vh] @[700px]:pr-[18vh]">-”Why I Believe Simplicity is the Ultimate Sophistication in Design”</p>
           <p className="font-medium @[600px]:text-[16px] text-[14px] @[500px]:text-[18px] @[700px]:text-[18px] @[900px]:text-[20px] @[1000px]:text-[21px] @[1200px]:text-[22px] pt-10 pl-[5vh] pr-[8vh] @[700px]:pl-[11vh] @[700px]:pr-[18vh]">In a world filled with constant noise and complexity, simplicity stands out as a breath of fresh air. To me, simplicity <br />
             in design isn’t about doing less it’s about doing more with less. It’s about clarity, focus, and the ability to communicate purpose without unnecessary distractions.<br /> <br />
             simplicity isn’t about what you remove it’s about what you leave behind. And that, to me, is the ultimate sophistication.
           </p>
+          <div className="flex">
+              <div className="flex-1 self-center"><img src={simple} alt="John Wynne" className="self-center w-[70%] @[700px]:w-[60%] mt-10 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[16vh]" />
+              <p className="mt-6 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[23vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Simple Relaxing Spacious</p>
+            </div>
+              <div className="flex-1 self-center"><img src={noisy} alt="Rafael Lozano-Hemmer" className="w-[70%] @[700px]:w-[70%] mt-10 ml-[3vh] mr-[8vh] @[700px]:ml-[9vh] @[700px]:mr-[18vh]" />
+              <p className="mt-6 ml-[3vh] mr-[8vh] @[700px]:ml-[11vh] @[700px]:mr-[18vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Noisy Fast-Paced Crowded</p>
+            </div>
+            </div>
           <p className="font-medium text-[#999999] italic text-[16px] @[500px]:text-[18px] @[600px]:text-[20px] @[700px]:text-[22px] @[900px]:text-[24px] @[1000px]:text-[25px] @[1200px]:text-[26px] pt-10 pl-[5vh] pr-[8vh] @[700px]:pl-[11vh] @[700px]:pr-[18vh]">-”Cherish Those Close to You”</p>
           <p className="font-medium text-[14px] @[500px]:text-[18px] @[600px]:text-[16px] @[700px]:text-[18px] @[900px]:text-[20px] @[1000px]:text-[21px] @[1200px]:text-[22px] pt-10 pl-[5vh] pr-[8vh] @[700px]:pl-[11vh] @[700px]:pr-[18vh]">
           Life has a way of reminding us just how precious the people we care about are.
@@ -75,6 +98,14 @@ export default function App() {
           So, take a moment to cherish the people close to you. Tell them how much they mean to you, listen to them, and show them your appreciation.
           <br /><br /> These connections are what make life rich and fulfilling. In the end, it’s the love and care we give to those around us that define the moments we treasure the most.
           </p>
+          <div className="flex">
+              <div className="flex-1 self-center"><img src={CloseOnes1} alt="John Wynne" className="self-center w-[70%] @[700px]:w-[60%] mt-10 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[16vh]" />
+              <p className="mt-6 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[23vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Sunset with loved ones</p>
+            </div>
+              <div className="flex-1 self-center"><img src={CloseOnes2} alt="Rafael Lozano-Hemmer" className="w-[70%] @[700px]:w-[70%] mt-10 ml-[3vh] mr-[8vh] @[700px]:ml-[9vh] @[700px]:mr-[18vh]" />
+              <p className="mt-6 ml-[3vh] mr-[8vh] @[700px]:ml-[11vh] @[700px]:mr-[18vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Memories with the family</p>
+            </div>
+            </div>
           </div>
           <hr class="border-[#A9A9A9] mt-10"/>
           <div >

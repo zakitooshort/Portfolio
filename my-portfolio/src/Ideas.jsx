@@ -51,31 +51,48 @@ export default function Ideas() {
          <div class="@[1100px]:flex items-center justify-between space-y-4 @[1100px]:space-y-0 @[1100px]:space-x-4 @[1100px]:mt-12  mb-4 mt-2 m-12 ">
           <div class="flex-1 p-6 border border-gray-300 shadow-lg overflow-y-auto
            [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-500 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 max-h-96 h-96 ">
-            <h2 class="text-2xl font-semibold">Emotion-Mirroring Mirror</h2>
-            <p class="text-gray-600 mt-3">
+            <h2 class="text-[16px] @[500px]:text-[18px] @[700px]:text-xl @[1000px]:text-[16px] @[500px]:text-[18px] @[700px]:text-xl @[1000px]:text-2xl font-semibold">Emotion-Mirroring Mirror</h2>
+            <p class="text-gray-600 mt-3 text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]">
             A virtual mirror that uses your webcam to detect your emotions and display an avatar that mirrors your mood in a surreal, animated way.
             </p>
             <img src={idea1} alt="Prototype Image" class="mt-4 rounded-lg" />
-            <button class="mt-4 text-blue-500 hover:underline" onClick={toggleModal1}>Read More</button>
+            <button class="mt-4 text-blue-500 hover:underline text-[12px] @[500px]:text-[13px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal1}>Read More</button>
             
           </div>
           {modal1 && (
-            <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
-              <div onClick={toggleModal1} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
+            <>
+            <div className="hidden @[800px]:block modal fixed right-0 left-0 top-0 bottom-0 ">
+              <div onClick={toggleModal1} className=" fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[8%] left-[20%] bg-[#1f1f1f] h-[80%] w-[70%]">
                 <div className="text-4xl ml-1">Emotion-Mirroring Mirror</div>
-                <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
+                <div className=" ml-2 mt-4 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>Detailed Description: <br /></strong>
                  This concept involves using facial recognition and emotion detection to animate an avatar that mirrors your mood. Imagine a digital reflection that not only shows your face but expresses how you feel in a creative and surreal way. The avatar could change colors, shapes, or even environments based on your emotions.
                 </div><br />
-                <div className=" ml-2 text-2xl"><strong>
+                <div className=" ml-2 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>
                  Potential Technologies: <br /></strong>
                  <strong>TensorFlow.js</strong> for emotion detection. <br />
                  <strong>Three.js or p5.js</strong> for dynamic avatar rendering. <br />
                  <strong>WebRTC</strong> for accessing the webcam.</div>
-                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal1}>close</button>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal1}>close</button>
               </div>
                
             </div>
+            <div className="@[800px]:hidden ">
+              <div onClick={toggleModal1} className=" fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[70%] w-full ">
+                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Emotion-Mirroring Mirror</div>
+                <div className=" ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
+                 This concept involves using facial recognition and emotion detection to animate an avatar that mirrors your mood. Imagine a digital reflection that not only shows your face but expresses how you feel in a creative and surreal way. The avatar could change colors, shapes, or even environments based on your emotions.
+                </div><br />
+                <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>
+                 Potential Technologies: <br /></strong>
+                 <strong>TensorFlow.js</strong> for emotion detection. <br />
+                 <strong>Three.js or p5.js</strong> for dynamic avatar rendering. <br />
+                 <strong>WebRTC</strong> for accessing the webcam.</div>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal1}>close</button>
+              </div>
+            </div>
+            </>
             )}
 
           <div class="w-px  bg-gray-300"></div>
@@ -86,31 +103,48 @@ export default function Ideas() {
               [&::-webkit-scrollbar-thumb]:bg-gray-500
               dark:[&::-webkit-scrollbar-track]:bg-neutral-700
                dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
-            <h2 class="text-2xl font-semibold">Reverse Todo List</h2>
-            <p class="text-gray-600 mt-3">
+            <h2 class="text-[16px] @[500px]:text-[18px] @[700px]:text-xl @[1000px]:text-2xl font-semibold">Reverse Todo List</h2>
+            <p class="text-gray-600 mt-3 text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]">
             A todo list where instead of listing things to do, you list things you've already done. Over time, it visualizes your accomplishments and progress, helping to boost motivation.
             </p>
             <img src={idea2} alt="Prototype Image" class="mt-4 rounded-lg" />
-            <button class="mt-4 text-blue-500 hover:underline" onClick={toggleModal2} >Read More</button>
+            <button class="mt-4 text-blue-500 hover:underline text-[12px] @[500px]:text-[13px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal2} >Read More</button>
           </div>
           {modal2 && (
-            <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
-              <div onClick={toggleModal2} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
+            <>
+            <div className="hidden @[800px]:block modal fixed right-0 left-0 top-0 bottom-0 ">
+              <div onClick={toggleModal2} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[8%] left-[20%] bg-[#1f1f1f] h-[80%] w-[70%]">
                 <div className="text-4xl ml-1">Reverse To-Do List</div>
-                <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
+                <div className=" ml-2 mt-4 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>Detailed Description: <br /></strong>
                 Instead of listing tasks you need to do, this app lets you list tasks you’ve already completed. It’s a great way to motivate yourself by focusing on accomplishments rather than obligations.
                 </div><br />
-                <div className=" ml-2 text-2xl"><strong>
+                <div className=" ml-2 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>
                  Potential Technologies: <br /></strong>
                  <strong>React</strong> Frontend. <br />
                  <strong>Tailwind</strong> fStyling. <br />
                  <strong>Node.js</strong> Backend. <br />
                  <strong>MongoDB or Firebase</strong> Database.</div>
-                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal2}>close</button>
+                <button className="bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal2}>close</button>
               </div>
-               
             </div>
+            <div className="@[800px]:hidden">
+              <div onClick={toggleModal2} className=" fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[65%] w-full ">
+                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Reverse To-Do List</div>
+                <div className="ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
+                Instead of listing tasks you need to do, this app lets you list tasks you’ve already completed. It’s a great way to motivate yourself by focusing on accomplishments rather than obligations.
+                </div><br />
+                <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>
+                 Potential Technologies: <br /></strong>
+                 <strong>React</strong> Frontend. <br />
+                 <strong>Tailwind</strong> fStyling. <br />
+                 <strong>Node.js</strong> Backend. <br />
+                 <strong>MongoDB or Firebase</strong> Database.</div>
+                <button className="bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal2}>close</button>
+              </div>
+            </div>
+            </>
             )}
         </div>
         
@@ -121,30 +155,46 @@ export default function Ideas() {
               [&::-webkit-scrollbar-thumb]:bg-gray-500
               dark:[&::-webkit-scrollbar-track]:bg-neutral-700
                dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 max-h-96 h-96">
-            <h2 class="text-2xl font-semibold">Dynamic Debate Platform</h2>
+            <h2 class="text-[16px] @[500px]:text-[18px] @[700px]:text-xl @[1000px]:text-2xl font-semibold">Dynamic Debate Platform</h2>
             <p class="text-gray-600 mt-3">
             A debate platform where AI generates opposing arguments based on user input, helping people strengthen their opinions or see things from a different perspective.
             </p>
             <img src={idea3} alt="Prototype Image" class="mt-4 rounded-lg" />
-            <button class="mt-4 text-blue-500 hover:underline"  onClick={toggleModal3}>Read More</button>
+            <button class="mt-4 text-blue-500 hover:underline text-[12px] @[500px]:text-[13px] @[700px]:text-[14px] @[1000px]:text-[16px]"  onClick={toggleModal3}>Read More</button>
           </div>
           {modal3 && (
-            <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
-              <div onClick={toggleModal3} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
+            <>
+            <div className="hidden @[800px]:block modal fixed right-0 left-0 top-0 bottom-0 ">
+              <div onClick={toggleModal3} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[8%] left-[20%] bg-[#1f1f1f] h-[80%] w-[70%]">
                 <div className="text-4xl ml-1">Dynamic Debate Platform</div>
-                <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
+                <div className=" ml-2 mt-4 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>Detailed Description: <br /></strong>
                 An interactive platform where users can engage in live debates on various topics. The twist? Users get assigned random positions (for or against) and must defend them, encouraging critical thinking and empathy for opposing views.</div><br />
-                <div className=" ml-2 text-2xl"><strong>
+                <div className=" ml-2 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>
                  Potential Technologies: <br /></strong>
                  <strong>React with Tailwind CSS</strong> for a clean, modern interface. <br />
                  <strong>Node.jss</strong> to manage debate rooms and user data. <br />
                  <strong>Socket.io</strong> for live debate interaction. <br />
                  <strong>PostgreSQL or MongoD</strong> to store topics, user profiles, and debate histories</div>
-                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal3}>close</button>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal3}>close</button>
               </div>
-               
             </div>
+            <div className="@[800px]:hidden">
+              <div onClick={toggleModal3} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[75%] w-full ">
+                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Dynamic Debate Platform</div>
+                <div className=" ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
+                An interactive platform where users can engage in live debates on various topics. The twist? Users get assigned random positions (for or against) and must defend them, encouraging critical thinking and empathy for opposing views.</div><br />
+                <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>
+                 Potential Technologies: <br /></strong>
+                 <strong>React with Tailwind CSS</strong> for a clean, modern interface. <br />
+                 <strong>Node.jss</strong> to manage debate rooms and user data. <br />
+                 <strong>Socket.io</strong> for live debate interaction. <br />
+                 <strong>PostgreSQL or MongoD</strong> to store topics, user profiles, and debate histories</div>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal3}>close</button>
+              </div>
+            </div>
+            </>
             )}
           <div class="@[1100px]:w-px bg-gray-300"></div>
 
@@ -154,31 +204,49 @@ export default function Ideas() {
               [&::-webkit-scrollbar-thumb]:bg-gray-500
               dark:[&::-webkit-scrollbar-track]:bg-neutral-700
                dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
-            <h2 class="text-2xl font-semibold">Personal Time Capsule</h2>
-            <p class="text-gray-600 mt-3">
+            <h2 class="text-[16px] @[500px]:text-[18px] @[700px]:text-xl @[1000px]:text-2xl font-semibold">Personal Time Capsule</h2>
+            <p class="text-gray-600 mt-3 text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]">
             A digital time capsule where you can store messages, files, or even recorded videos to be sent to your future self on a chosen date. Bonus: You could add AR visuals when you open it!</p>
             <img src={idea4} alt="Prototype Image" class="mt-4 rounded-lg" />
-            <button class="mt-4 text-blue-500 hover:underline" onClick={toggleModal4}>Read More</button>
+            <button class="mt-4 text-blue-500 hover:underline text-[12px] @[500px]:text-[13px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal4}>Read More</button>
           </div>
           {modal4 && (
-            <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
-              <div onClick={toggleModal4} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
+            <>
+            <div className="hidden @[800px]:block modal fixed right-0 left-0 top-0 bottom-0 ">
+              <div onClick={toggleModal4} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[8%] left-[20%] bg-[#1f1f1f] h-[80%] w-[70%]">
                 <div className="text-4xl ml-1">Personal Time Capsule</div>
-                <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
+                <div className=" ml-2 mt-4 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>Detailed Description: <br /></strong>
                 Users can write letters, upload photos, or record videos and set them to be unlocked at a specific future date. It’s a nostalgic tool that lets people reflect on their past thoughts, dreams, and experiences.
                  </div><br />
-                <div className=" ml-2 text-2xl"><strong>
+                <div className=" ml-2 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>
                  Potential Technologies: <br /></strong>
                  <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
                  <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
                  <strong>PostgreSQL</strong> for storing capsule data. <br />
                  <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
                  <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
-                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal4}>close</button>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal4}>close</button>
               </div>
-               
             </div>
+            <div className="@[800px]:hidden">
+              <div onClick={toggleModal4} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[70%] w-full ">
+                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Personal Time Capsule</div>
+                <div className=" ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
+                Users can write letters, upload photos, or record videos and set them to be unlocked at a specific future date. It’s a nostalgic tool that lets people reflect on their past thoughts, dreams, and experiences.
+                 </div><br />
+                <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>
+                 Potential Technologies: <br /></strong>
+                 <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
+                 <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
+                 <strong>PostgreSQL</strong> for storing capsule data. <br />
+                 <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
+                 <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal4}>close</button>
+              </div>
+            </div>
+            </>
             )}
         </div>
 
@@ -189,31 +257,49 @@ export default function Ideas() {
               [&::-webkit-scrollbar-thumb]:bg-gray-500
               dark:[&::-webkit-scrollbar-track]:bg-neutral-700
                dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 max-h-96 h-96">
-            <h2 class="text-2xl font-semibold">Memory-Augmenting Journal</h2>
-            <p class="text-gray-600 mt-3">
+            <h2 class="text-[16px] @[500px]:text-[18px] @[700px]:text-xl @[1000px]:text-2xl font-semibold">Memory-Augmenting Journal</h2>
+            <p class="text-gray-600 mt-3 text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]">
             A journal app that uses AI to analyze your entries and suggest things you might want to remember later, like special moments or recurring thoughts. It could even generate poetic summaries of your life over time.</p>
             <img src={idea5} alt="Prototype Image" class="mt-4 rounded-lg" />
-            <button class="mt-4 text-blue-500 hover:underline" onClick={toggleModal5}>Read More</button>
+            <button class="mt-4 text-blue-500 hover:underline text-[12px] @[500px]:text-[13px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal5}>Read More</button>
           </div>
           {modal5 && (
-            <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
-              <div onClick={toggleModal5} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
+            <>
+            <div className="hidden @[800px]:block modal fixed right-0 left-0 top-0 bottom-0 ">
+              <div onClick={toggleModal5} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[8%] left-[20%] bg-[#1f1f1f] h-[80%] w-[70%]">
                 <div className="text-4xl ml-1">Memory-Augmenting Journal</div>
-                <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
+                <div className=" ml-2 mt-4 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>Detailed Description: <br /></strong>
                 A journal app that uses AI to analyze your entries and suggest things you might want to remember later, like special moments or recurring thoughts. It could even generate poetic summaries of your life over time.
                 </div><br />
-                <div className=" ml-2 text-2xl"><strong>
+                <div className=" ml-2 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>
                  Potential Technologies: <br /></strong>
                  <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
                  <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
                  <strong>PostgreSQL</strong> for storing capsule data. <br />
                  <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
                  <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
-                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal5}>close</button>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal5}>close</button>
               </div>
-               
             </div>
+            <div className="@[800px]:hidden">
+              <div onClick={toggleModal5} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[70%] w-full ">
+                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Memory-Augmenting Journal</div>
+                <div className=" ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
+                A journal app that uses AI to analyze your entries and suggest things you might want to remember later, like special moments or recurring thoughts. It could even generate poetic summaries of your life over time.
+                </div><br />
+                <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>
+                 Potential Technologies: <br /></strong>
+                 <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
+                 <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
+                 <strong>PostgreSQL</strong> for storing capsule data. <br />
+                 <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
+                 <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal5}>close</button>
+              </div>
+            </div>
+            </>
             )}
 
           <div class="@[1100px]:w-px  bg-gray-300"></div>
@@ -224,31 +310,49 @@ export default function Ideas() {
               [&::-webkit-scrollbar-thumb]:bg-gray-500
               dark:[&::-webkit-scrollbar-track]:bg-neutral-700
                dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
-            <h2 class="text-2xl font-semibold">Real-Time Mood Chat</h2>
-            <p class="text-gray-600 mt-3">
+            <h2 class="text-[16px] @[500px]:text-[18px] @[700px]:text-xl @[1000px]:text-2xl font-semibold">Real-Time Mood Chat</h2>
+            <p class="text-gray-600 mt-3 text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]">
             A chat app where your avatar and the chat background change in real time based on your mood. Users can see each other’s “emotional states” and respond accordingly.</p>
             <img src={idea6} alt="Prototype Image" class="mt-4 rounded-lg" />
-            <button class="mt-4 text-blue-500 hover:underline" onClick={toggleModal6}>Read More</button>
+            <button class="mt-4 text-blue-500 hover:underline text-[12px] @[500px]:text-[13px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal6}>Read More</button>
           </div>
           {modal6 && (
-            <div className="modal w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 ">
-              <div onClick={toggleModal6} className="w-[100vw] h-[100vh] fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[8%] left-[25%] bg-[#1f1f1f] max-h-[80vh] h-[55vh] max-w-[100vh] w-[100vh]">
+            <>
+            <div className="hidden @[800px]:block modal fixed right-0 left-0 top-0 bottom-0 ">
+              <div onClick={toggleModal6} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[8%] left-[20%] bg-[#1f1f1f] h-[80%] w-[70%]">
                 <div className="text-4xl ml-1">Real-Time Mood Chat</div>
-                <div className=" ml-2 mt-4 text-2xl"><strong>Detailed Description: <br /></strong>
+                <div className=" ml-2 mt-4 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>Detailed Description: <br /></strong>
                 A chat app where your avatar and the chat background change in real time based on your mood. Users can see each other’s “emotional states” and respond accordingly.
                 </div><br />
-                <div className=" ml-2 text-2xl"><strong>
+                <div className=" ml-2 text-[16px] @[500px]:text-[18px] @[700px]:text-[19px] @[1000px]:text-[21px]"><strong>
                  Potential Technologies: <br /></strong>
                  <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
                  <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
                  <strong>PostgreSQL</strong> for storing capsule data. <br />
                  <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
                  <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
-                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  ml-2 mt-10 text-xl text-semibold" onClick={toggleModal6}>close</button>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal6}>close</button>
               </div>
-               
             </div>
+            <div className="@[800px]:hidden ">
+              <div onClick={toggleModal6} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[70%] w-full ">
+                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Real-Time Mood Chat</div>
+                <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px] mt-4"><strong>Detailed Description: <br /></strong>
+                A chat app where your avatar and the chat background change in real time based on your mood. Users can see each other’s “emotional states” and respond accordingly.
+                </div><br />
+                <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>
+                 Potential Technologies: <br /></strong>
+                 <strong>React with Tailwind CSS</strong> for a smooth and responsive UI. <br />
+                 <strong>Node.js with Express or Django</strong> for handling user data and scheduling unlock events.<br />
+                 <strong>PostgreSQL</strong> for storing capsule data. <br />
+                 <strong>AWS S3 or Firebase</strong> for uploading and storing media. <br />
+                 <strong>EmailJS or SendGrid</strong> for sending notifications.</div>
+                <button className=" bg-[#313131] rounded pl-2 pr-2 pt-1 pb-1  absolute bottom-2 text-xl text-semibold text-[11px] @[500px]:text-[12px] @[700px]:text-[14px] @[1000px]:text-[16px]" onClick={toggleModal6}>close</button>
+              </div>
+            </div>
+            </>
             )}
         </div>
       </main>
