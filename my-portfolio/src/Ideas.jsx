@@ -80,7 +80,7 @@ export default function Ideas() {
             <div className="@[800px]:hidden ">
               <div onClick={toggleModal1} className=" fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
               <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[70%] w-full ">
-                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Emotion-Mirroring Mirror</div>
+                <div className="text-[18px] @[300px]:text-[20px] @[400px]:text-[22px] ml-1">Emotion-Mirroring Mirror</div>
                 <div className=" ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
                  This concept involves using facial recognition and emotion detection to animate an avatar that mirrors your mood. Imagine a digital reflection that not only shows your face but expresses how you feel in a creative and surreal way. The avatar could change colors, shapes, or even environments based on your emotions.
                 </div><br />
@@ -131,7 +131,7 @@ export default function Ideas() {
             <div className="@[800px]:hidden">
               <div onClick={toggleModal2} className=" fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
               <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[65%] w-full ">
-                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Reverse To-Do List</div>
+                <div className="text-[18px] @[300px]:text-[20px] @[400px]:text-[22px] ml-1">Reverse To-Do List</div>
                 <div className="ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
                 Instead of listing tasks you need to do, this app lets you list tasks you’ve already completed. It’s a great way to motivate yourself by focusing on accomplishments rather than obligations.
                 </div><br />
@@ -182,7 +182,7 @@ export default function Ideas() {
             <div className="@[800px]:hidden">
               <div onClick={toggleModal3} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
               <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[75%] w-full ">
-                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Dynamic Debate Platform</div>
+                <div className="text-[18px] @[300px]:text-[20px] @[400px]:text-[22px] ml-1">Dynamic Debate Platform</div>
                 <div className=" ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
                 An interactive platform where users can engage in live debates on various topics. The twist? Users get assigned random positions (for or against) and must defend them, encouraging critical thinking and empathy for opposing views.</div><br />
                 <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>
@@ -231,8 +231,8 @@ export default function Ideas() {
             </div>
             <div className="@[800px]:hidden">
               <div onClick={toggleModal4} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[70%] w-full ">
-                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Personal Time Capsule</div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[80%] w-full ">
+                <div className="text-[18px] @[300px]:text-[20px] @[400px]:text-[22px] ml-1">Personal Time Capsule</div>
                 <div className=" ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
                 Users can write letters, upload photos, or record videos and set them to be unlocked at a specific future date. It’s a nostalgic tool that lets people reflect on their past thoughts, dreams, and experiences.
                  </div><br />
@@ -284,8 +284,8 @@ export default function Ideas() {
             </div>
             <div className="@[800px]:hidden">
               <div onClick={toggleModal5} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[70%] w-full ">
-                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Memory-Augmenting Journal</div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[80%] w-full ">
+                <div className="text-[18px] @[300px]:text-[20px] @[400px]:text-[22px] ml-1">Memory-Augmenting Journal</div>
                 <div className=" ml-2 mt-4 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px]"><strong>Detailed Description: <br /></strong>
                 A journal app that uses AI to analyze your entries and suggest things you might want to remember later, like special moments or recurring thoughts. It could even generate poetic summaries of your life over time.
                 </div><br />
@@ -337,8 +337,8 @@ export default function Ideas() {
             </div>
             <div className="@[800px]:hidden ">
               <div onClick={toggleModal6} className="fixed right-0 left-0 top-0 bottom-0 bg-[#A9A9A9] opacity-50"></div>
-              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[70%] w-full ">
-                <div className="text-[24px] @[300px]:text-[25px] @[400px]:text-[26px] ml-1">Real-Time Mood Chat</div>
+              <div className="p-4 modal-content absolute top-[4%] left-0 bg-[#1f1f1f] h-[80%] w-full ">
+                <div className="text-[18px] @[300px]:text-[20px] @[400px]:text-[22px] ml-1">Real-Time Mood Chat</div>
                 <div className=" ml-2 text-[13px] @[300px]:text-[15px] @[400px]:text-[17px] mt-4"><strong>Detailed Description: <br /></strong>
                 A chat app where your avatar and the chat background change in real time based on your mood. Users can see each other’s “emotional states” and respond accordingly.
                 </div><br />

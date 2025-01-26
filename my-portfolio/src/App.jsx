@@ -81,10 +81,10 @@ export default function App() {
           </p>
           <div className="flex">
               <div className="flex-1 self-center"><img src={simple} alt="John Wynne" className="self-center w-[70%] @[700px]:w-[60%] mt-10 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[16vh]" />
-              <p className="mt-6 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[23vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Simple Relaxing Spacious</p>
+              <p className="mt-6 ml-[5vh]  @[700px]:ml-[11vh] @[700px]:mr-[23vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Simple, Relaxing, Spacious</p>
             </div>
               <div className="flex-1 self-center"><img src={noisy} alt="Rafael Lozano-Hemmer" className="w-[70%] @[700px]:w-[70%] mt-10 ml-[3vh] mr-[8vh] @[700px]:ml-[9vh] @[700px]:mr-[18vh]" />
-              <p className="mt-6 ml-[3vh] mr-[8vh] @[700px]:ml-[11vh] @[700px]:mr-[18vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Noisy Fast-Paced Crowded</p>
+              <p className="mt-6 ml-[3vh] mr-[8vh] @[700px]:ml-[11vh] @[700px]:mr-[18vh] text-[10px] @[500px]:text-[12px] @[700px]:text-[14px] @[900px]:text-[16px]">Noisy, Fast-Paced, Crowded</p>
             </div>
             </div>
           <p className="font-medium text-[#999999] italic text-[16px] @[500px]:text-[18px] @[600px]:text-[20px] @[700px]:text-[22px] @[900px]:text-[24px] @[1000px]:text-[25px] @[1200px]:text-[26px] pt-10 pl-[5vh] pr-[8vh] @[700px]:pl-[11vh] @[700px]:pr-[18vh]">-”Cherish Those Close to You”</p>
