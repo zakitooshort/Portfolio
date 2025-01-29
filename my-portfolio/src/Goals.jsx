@@ -4,8 +4,8 @@ import ProgressBar from './ProgressBar';
 import MobileNavbar from "./MobileNavbar";
 
 export default function Goals() {
-  const mainGoalProgress = 50; 
-  const miniGoalProgress = 50; 
+  const mainGoalProgress = 80; 
+  const miniGoalProgress = 100; 
 
   return (
     <>   

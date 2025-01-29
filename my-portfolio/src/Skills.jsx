@@ -108,11 +108,13 @@ export default function Skills() {
              <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={figma} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              </div>
+            
+             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={typescript} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
+             </div>
 
              <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
-            <div className="absolute inset-0 bg-[#fff] blur-lg"></div>
-             <img src={typescript} alt="" className="absolute z-0 h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
-             <img src={lock} alt="" className="absolute z-10" />
+            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={flask} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              </div>
 
             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
@@ -209,9 +211,7 @@ export default function Skills() {
              <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={qwik} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-            <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
-            <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={flask} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
-             <img src={lock} alt="" className="absolute z-10" /></div>
+            
 
             <div className="skill relative w-[11vh] h-[11vh]  ml-6 @[600px]:ml-10 m-6 ">
             <div className="absolute inset-0 bg-[#fff] blur-md"></div> <img src={fastify} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
@@ -269,8 +269,19 @@ export default function Skills() {
              <img src={lua} alt="" className="absolute h-[11vh] w-[11vh] object-scale-down rounded-lg @[1000px]:rounded-xl @[1100px]:rounded-3xl bg-[#36454F] p-3" />
              <img src={lock} alt="" className="absolute z-10" /></div>
 
-          </div>
-          
+        </div>
+        <div class="text-center text-semibold  m-4 @[200px]:text-[20px] @[700px]:text-[25px] @[900px]:text-3xl @[1000px]:text-4xl">
+          Soft Skills:
+        </div>
+        <ul className="mt-6 ml-[3vh] mr-[8vh] @[700px]:ml-[11vh] text-[20px] @[500px]:text-[22px] @[700px]:text-[24px] @[900px]:text-[26px] space-y-2  @[700px]:mr-[18vh] ">
+          <li><strong>Problem-Solving:</strong> I enjoy tackling complex problems , identify challenges, analyze root causes, and develop effective solutions.</li>
+          <li><strong>User-Centered Design:</strong> I conduct in-depth user research, including interviews, surveys, and usability testing, to understand user needs and behaviors.</li>
+          <li><strong>Communication:</strong> I excel at communicating complex ideas in a simple and understandable way and on the other hand I’m skilled at active listening, which helps me understand client needs or my colleagues and provide tailored solutions.</li>
+          <li><strong>Teamwork and Collaboration:</strong> I thrive in collaborative environments I’m also comfortable using collaboration tools like Slack, Trello, and Google Workspace to keep teams organized and connected.</li>
+          <li><strong>Adaptability:</strong> Being flexible and open to change, especially in dynamic or uncertain environments as i try to get as comfortable and familiar with any enviroment i get into to fully connect with my colleagues.</li>
+          <li><strong>Time Management:</strong> I prioritize tasks based on urgency and importance, ensuring that critical deliverables are always completed on time.</li>
+          <li><strong>Emotional Intelligence:</strong> I’m skilled at reading non-verbal cues and adjusting my communication style to connect with different personalities.</li>
+        </ul>
       </main>
     </div>
    </>
