@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function SidePanel(){
   const handleMailClick = (e) => {
     e.preventDefault(); 
-    window.location.href = 'mailto:zakip1r1o13@gmail.com';
+    window.location.href = 'mailto:zakida877@gmail.com';
   };
   return(
     <aside className="sticky text-white space--4 top-0 h-100% sidepanel ">
