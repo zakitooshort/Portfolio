@@ -32,9 +32,12 @@ export default function About() {
          <div className="relative @[550px]:flex @[900px]:py-5 items-center">
           <div className="ml-10 mb-2 @[900px]:ml-28 flex-grow @[900px]:mb-20">
             <h1 className="text-sm @[400px]:text-md @[550px]:text-lg @[600px]:text-xl @[900px]:text-2xl @[1200px]:text-3xl font-medium">University Of Algiers 1</h1>
-            <h2 className="text-sm @[400px]:text-md @[550px]:text-lg @[600px]:text-xl @[900px]:text-2xl @[1200px]:text-3xl font-medium text-[#D3D3D3]" >Computer Sciences</h2>
-            <p className="text-[#D3D3D3] text-[12px] @[900px]:text-[18px] mt-4">2022-2025</p>
-            <p className="text-[12px] @[400px]:text-[14px] @[550px]:text-[16px] @[600px]:text-[18px] @[900px]:text-[20px] @[1200px]:text-[22px] mt-10">Undergraduate Licence CompSci (ISIL)</p>
+            <h2 className="text-sm @[400px]:text-md @[550px]:text-lg @[600px]:text-xl @[900px]:text-2xl @[1200px]:text-3xl font-medium text-[#D3D3D3]">Computer Sciences</h2>
+            <p className="text-[#D3D3D3] text-[12px] @[900px]:text-[18px] mt-4">2025 — present</p>
+            <p className="text-[12px] @[400px]:text-[14px] @[550px]:text-[16px] @[600px]:text-[18px] @[900px]:text-[20px] @[1200px]:text-[22px] mt-4">Masters 1 — Ingenierie des Systemes Informatiques Intelligents (ISII)</p>
+            <div className="flex-grow border-t border-[#A9A9A9] border-opacity-30 my-6"></div>
+            <p className="text-[#D3D3D3] text-[12px] @[900px]:text-[18px]">2022 — 2025</p>
+            <p className="text-[12px] @[400px]:text-[14px] @[550px]:text-[16px] @[600px]:text-[18px] @[900px]:text-[20px] @[1200px]:text-[22px] mt-4">Licence — Computer Sciences (ISIL)</p>
           </div>
           <div className="@[600px]:w-[60%] w-[70%] ml-[10%] mr-2 @[900px]:mr-20"><img className=" flex-shrink rounded-[25px] h-[60%]" src={uni} alt="university image" /><p className="ml-10 mt-6 text-[12px] @[600px]:text-[14px] @[900px]:text-[16px] @[1200px]:text-[18px] text-[#D3D3D3]">Library building </p></div>
          </div>
@@ -44,12 +47,11 @@ export default function About() {
          </div>
          <div className="mr-[10%] ml-[10%] @[900px]:mr-20 @[900px]:ml-20">
           <p className=" text-[12px] @[400px]:text-[14px] @[550px]:text-[16px] @[600px]:text-[18px] @[900px]:text-[20px] @[1200px]:text-[22px] ">His journey into technology began with a deep curiosity about how programming can shape the world around us. <br />
-          Starting with the basics, He quickly became captivated by the endless possibilities of creating impactful solutions through code. <br />
-          Currently, He’s exploring full-stack development, focusing on React, Vue.js, Tailwind CSS, Node.js, Express, Django, and PostgreSQL . <br />
-          While He hasn’t built a big project yet, He’s actively learning, experimenting, and building smaller applications to strengthen his foundation.
-           His journey is defined by curiosity, persistence, and a drive to create meaningful applications that solve real-world problems.</p>
+          Starting with the basics, he quickly became captivated by the endless possibilities of creating impactful solutions through code. <br />
+          He completed his Licence in Computer Sciences (ISIL) at Algiers 1 and is now pursuing his Masters in Intelligent Computer Systems Engineering  pushing further into the intersection of software and intelligence. <br /><br />
+          He builds across the stack  from full-stack web apps to backend systems and command-line tools  always looking for projects that are genuinely interesting to build and useful to ship.</p>
           <br />
-          <p className="text-semibold text-[15px] @[400px]:text-[17px] @[550px]:text-[19px] @[600px]:text-[21px] @[900px]:text-[23px] @[1200px]:text-[25px]">This portfolio is a snapshot of where he is today, and he’s excited to continue growing and turning his aspirations into reality.</p>
+          <p className="text-semibold text-[15px] @[400px]:text-[17px] @[550px]:text-[19px] @[600px]:text-[21px] @[900px]:text-[23px] @[1200px]:text-[25px]">This portfolio is a living snapshot  updated as he grows, ships, and learns.</p>
          </div>
          <div class="relative flex py-5 items-center">
           <span class="flex-shrink @[900px]:ml-10 mx-2 @[900px]:mx-4 @[600px]:text-[16px] @[900px]:text-[18px] @[1200px]:text-[20px] text-[#A9A9A9] text-gray-400">INSPIRATION</span>
